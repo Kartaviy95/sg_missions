@@ -1,0 +1,18 @@
+_veh = _this select 0;
+
+// чтобы добавить снарягу с этого файла в технику нужно прописать в инициализацию техники (без внешних кавычек): "[this,"BLUEFOR","MED"] call SerP_vehprocessor;"
+// cнаряжение и патроны, заряжающиеся через ACE меню) (["класснейм ресурса",кол-во ресурсов])
+_veh addItemcargoGlobal ["ACE_morphine",12];
+_veh addItemcargoGlobal ["ACE_epinephrine",12];
+_veh addItemcargoGlobal ["ACE_fieldDressing",20]; 
+_veh addItemcargoGlobal ["ACE_tourniquet",4]; 
+_veh addItemcargoGlobal ["ACE_quikclot",10];
+_veh addItemcargoGlobal ["ACE_elasticBandage",10];
+_veh addItemcargoGlobal ["ACE_packingBandage", 10];
+
+_veh addItemcargoGlobal ["rhs_mag_30Rnd_556x45_M855A1_Stanag", 15];
+_veh addItemcargoGlobal ["rhsusf_100Rnd_762x51_m80a1epr", 10];
+_veh addItemcargoGlobal ["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", 5];
+_veh addItemcargoGlobal ["rhs_mag_m67", 20];
+_veh addItemcargoGlobal ["rhs_mag_an_m8hc", 10];
+_veh addItemcargoGlobal ["rhs_weap_M136_hedp", 1];

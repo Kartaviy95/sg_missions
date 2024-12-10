@@ -1,0 +1,32 @@
+﻿author = "by [Wagner]bokser"; //Автор миссии (учитывайте, что в английской версии пишет "by")
+onLoadName = "Berezinskaya information"; //Название миссии
+onLoadMission = "SolidGames"; //Вписывают название проекта, либо краткую фразу для создания атмосферы (я пишу краткое описание миссии)
+loadScreen = "load.jpg"; //Изображение, показываемое при прогрузке миссии (в корне игры)
+
+// Отключение консоли
+enableDebugConsole = 0;
+
+// Настройка атриума
+#include "A3A_SETUP\a3a_header.hpp"
+#include "A3A_SETUP\a3a_parameters.hpp"
+
+class A3A_MissionParams {
+	#include "mission_parameters.hpp"
+};
+
+class CfgFunctions
+{
+    class mis
+    {
+        class Main
+        {
+            file="mis_funcs";
+            class preinit
+            {
+                preInit=1;
+                postInit=0;
+            };
+
+        };
+    };
+};

@@ -1,0 +1,2629 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1025;
+	class ItemIDProvider
+	{
+		nextID=121;
+	};
+	class MarkerIDProvider
+	{
+		nextID=5;
+	};
+	class LayerIndexProvider
+	{
+		nextID=24;
+	};
+	class Camera
+	{
+		pos[]={3506.1736,74.39917,3811.4934};
+		dir[]={0.50514281,-0.33047384,0.79726207};
+		up[]={0.17687504,0.94381577,0.27915999};
+		aside[]={0.844724,1.4749821e-007,-0.5352152};
+	};
+};
+binarizationWanted=0;
+
+addons[]=
+{
+	"A3_Characters_F_Common",
+	"A3_Drones_F_Air_F_Gamma_UAV_01",
+	"mkk_rebalance_bis",
+	"mkk_rhs_afrf_fix",
+	"rhs_c_weapons",
+	"A3_Soft_F_Offroad_01",
+	"A3A_Modules",
+	"ace_repair",
+	"A3_Ui_F",
+	"A3_Drones_F_Weapons_F_Gamma_Items",
+	"A3_Characters_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=9;
+		class Item0
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Drones_F";
+			name="Arma 3 Beta - Drones";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="mkk_rebalance_bis";
+			name="mkk_rebalance_bis";
+		};
+		class Item3
+		{
+			className="mkk_rhs_afrf_fix";
+			name="mkk_rhs_afrf_fix";
+		};
+		class Item4
+		{
+			className="rhs_c_weapons";
+			name="AFRF Weapons Pack";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item5
+		{
+			className="A3_Soft_F";
+			name="Arma 3 Alpha - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="A3A_Modules";
+			name="A3A_Modules";
+			author="Blender";
+		};
+		class Item7
+		{
+			className="ace_repair";
+			name="ACE3 - Repair";
+			author="Команда ACE";
+			url="http://ace3mod.com/";
+		};
+		class Item8
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=11319210;
+class ScenarioData
+{
+	author="tElore";
+	respawn=1;
+	respawnDelay=1;
+};
+class CustomAttributes
+{
+	class Category1
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Seagull";
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	assetType="Free";
+	class Intel
+	{
+		overviewText="Синие (оборона) vs Красные (атака)";
+		resistanceWest=0;
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2009;
+		day=29;
+		hour=11;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=25;
+		class Item0
+		{
+			dataType="Layer";
+			name="fpv";
+			class Entities
+			{
+				items=12;
+				class Item0
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6703.4004,193.60324,3029.2153};
+								angles[]={6.2691264,4.6553307,6.281425};
+							};
+							side="East";
+							flags=2;
+							class Attributes
+							{
+								name="fpv_1D_2";
+							};
+							id=1;
+							type="O_UAV_AI";
+							atlOffset=22.910019;
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6703.4004,193.75371,3029.2163};
+								angles[]={6.2691264,4.6553307,6.281425};
+							};
+							side="East";
+							class Attributes
+							{
+								name="fpv_1G_2";
+							};
+							id=2;
+							type="O_UAV_AI";
+							atlOffset=23.060822;
+						};
+					};
+					class Attributes
+					{
+					};
+					class CrewLinks
+					{
+						class LinkIDProvider
+						{
+							nextID=2;
+						};
+						class Links
+						{
+							items=2;
+							class Item0
+							{
+								linkID=0;
+								item0=1;
+								item1=3;
+								class CustomData
+								{
+									role=1;
+								};
+							};
+							class Item1
+							{
+								linkID=1;
+								item0=2;
+								item1=3;
+								class CustomData
+								{
+									role=2;
+									turretPath[]={0};
+								};
+							};
+						};
+					};
+					id=0;
+					atlOffset=6.3145752;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3574.98,31.445902,3927.302};
+						angles[]={6.2691264,4.6553307,6.281425};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						name="fpv_1";
+						description="@1 FPV-дрон (ОГ-7В)";
+						reportRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=3;
+					type="O_UAV_01_F";
+					atlOffset=6.3145752;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3574.7793,31.297743,3928.7063};
+						angles[]={6.2691264,0.67123252,6.281425};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="og_1";
+						disableSimulation=1;
+					};
+					id=4;
+					type="Item_rhs_rpg7_OG7V_mag";
+					atlOffset=6.3168755;
+				};
+				class Item3
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6704.1387,192.94368,3023.0405};
+								angles[]={6.2694569,4.7147465,-0};
+							};
+							side="East";
+							flags=2;
+							class Attributes
+							{
+								name="fpv_1D_3";
+							};
+							id=40;
+							type="O_UAV_AI";
+							atlOffset=20.019379;
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6704.1387,193.09415,3023.0415};
+								angles[]={6.2694569,4.7147465,-0};
+							};
+							side="East";
+							class Attributes
+							{
+								name="fpv_1G_3";
+							};
+							id=41;
+							type="O_UAV_AI";
+							atlOffset=20.170151;
+						};
+					};
+					class Attributes
+					{
+					};
+					class CrewLinks
+					{
+						class LinkIDProvider
+						{
+							nextID=2;
+						};
+						class Links
+						{
+							items=2;
+							class Item0
+							{
+								linkID=0;
+								item0=40;
+								item1=42;
+								class CustomData
+								{
+									role=1;
+								};
+							};
+							class Item1
+							{
+								linkID=1;
+								item0=41;
+								item1=42;
+								class CustomData
+								{
+									role=2;
+									turretPath[]={0};
+								};
+							};
+						};
+					};
+					id=39;
+					atlOffset=3.9864769;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3570.709,31.371212,3921.5129};
+						angles[]={6.2694569,4.7147465,-0};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						name="fpv_4";
+						description="@1 FPV-дрон (ОГ-7В)";
+						reportRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=42;
+					type="O_UAV_01_F";
+					atlOffset=3.9864769;
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3570.5854,31.229198,3922.9292};
+						angles[]={6.2694707,0.73064816,0.00060814281};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="og_2";
+						disableSimulation=1;
+					};
+					id=43;
+					type="Item_rhs_rpg7_OG7V_mag";
+					atlOffset=3.9949226;
+				};
+				class Item6
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6704.4468,191.93944,3017.5454};
+								angles[]={6.2670021,4.7178497,0.008624793};
+							};
+							side="East";
+							flags=2;
+							class Attributes
+							{
+								name="fpv_1D_4";
+							};
+							id=55;
+							type="O_UAV_AI";
+							atlOffset=17.110855;
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6704.4468,192.0899,3017.5464};
+								angles[]={6.2670021,4.7178497,0.008624793};
+							};
+							side="East";
+							class Attributes
+							{
+								name="fpv_1G_4";
+							};
+							id=56;
+							type="O_UAV_AI";
+							atlOffset=17.261658;
+						};
+					};
+					class Attributes
+					{
+					};
+					class CrewLinks
+					{
+						class LinkIDProvider
+						{
+							nextID=2;
+						};
+						class Links
+						{
+							items=2;
+							class Item0
+							{
+								linkID=0;
+								item0=55;
+								item1=57;
+								class CustomData
+								{
+									role=1;
+								};
+							};
+							class Item1
+							{
+								linkID=1;
+								item0=56;
+								item1=57;
+								class CustomData
+								{
+									role=2;
+									turretPath[]={0};
+								};
+							};
+						};
+					};
+					id=54;
+					atlOffset=3.9707222;
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3573.2446,31.355446,3921.5437};
+						angles[]={6.2670021,4.7178497,0.008624793};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						name="fpv_7";
+						description="@1 FPV-дрон (ОГ-7В)";
+						reportRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=57;
+					type="O_UAV_01_F";
+					atlOffset=3.9707222;
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3573.1177,31.216469,3922.9524};
+						angles[]={6.2667899,0.73382783,0.0082135899};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="og_3";
+						disableSimulation=1;
+					};
+					id=58;
+					type="Item_rhs_rpg7_OG7V_mag";
+					atlOffset=3.982193;
+				};
+				class Item9
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6704.6079,190.13962,3010.4453};
+								angles[]={6.2691264,4.6650538,6.281425};
+							};
+							side="East";
+							flags=2;
+							class Attributes
+							{
+								name="fpv_1D_5";
+							};
+							id=70;
+							type="O_UAV_AI";
+							atlOffset=12.772659;
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6704.6079,190.29008,3010.4463};
+								angles[]={6.2691264,4.6650538,6.281425};
+							};
+							side="East";
+							class Attributes
+							{
+								name="fpv_1G_5";
+							};
+							id=71;
+							type="O_UAV_AI";
+							atlOffset=12.923462;
+						};
+					};
+					class Attributes
+					{
+					};
+					class CrewLinks
+					{
+						class LinkIDProvider
+						{
+							nextID=2;
+						};
+						class Links
+						{
+							items=2;
+							class Item0
+							{
+								linkID=0;
+								item0=70;
+								item1=72;
+								class CustomData
+								{
+									role=1;
+								};
+							};
+							class Item1
+							{
+								linkID=1;
+								item0=71;
+								item1=72;
+								class CustomData
+								{
+									role=2;
+									turretPath[]={0};
+								};
+							};
+						};
+					};
+					id=69;
+					atlOffset=3.9097004;
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3575.4954,31.294436,3916.8926};
+						angles[]={6.2691264,4.6650538,6.281425};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						name="fpv_10";
+						description="@1 FPV-дрон (ОГ-7В)";
+						reportRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=72;
+					type="O_UAV_01_F";
+					atlOffset=3.9097004;
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3575.2896,31.178375,3918.2959};
+						angles[]={6.2691264,0.68102258,6.281425};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						name="og_4";
+						disableSimulation=1;
+					};
+					id=73;
+					type="Item_rhs_rpg7_OG7V_mag";
+					atlOffset=0.0092601776;
+				};
+			};
+			id=5;
+			atlOffset=0.00059509277;
+		};
+		class Item1
+		{
+			dataType="Layer";
+			name="fpv_VL";
+			class Entities
+			{
+				items=12;
+				class Item0
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6701.7144,193.2959,3040.1887};
+								angles[]={6.2694569,4.6832519,-0};
+							};
+							side="East";
+							flags=2;
+							class Attributes
+							{
+								name="fpv_1D_10";
+							};
+							id=18;
+							type="O_UAV_AI";
+							atlOffset=26.15271;
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6701.7144,193.44635,3040.1897};
+								angles[]={6.2694569,4.6832519,-0};
+							};
+							side="East";
+							class Attributes
+							{
+								name="fpv_1G_10";
+							};
+							id=19;
+							type="O_UAV_AI";
+							atlOffset=26.303391;
+						};
+					};
+					class Attributes
+					{
+					};
+					class CrewLinks
+					{
+						class LinkIDProvider
+						{
+							nextID=2;
+						};
+						class Links
+						{
+							items=2;
+							class Item0
+							{
+								linkID=0;
+								item0=18;
+								item1=20;
+								class CustomData
+								{
+									role=1;
+								};
+							};
+							class Item1
+							{
+								linkID=1;
+								item0=19;
+								item1=20;
+								class CustomData
+								{
+									role=2;
+									turretPath[]={0};
+								};
+							};
+						};
+					};
+					id=17;
+					atlOffset=4.0488548;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3570.9946,31.450432,3927.2715};
+						angles[]={6.2694569,4.6832519,-0};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						name="fpv_2";
+						description="@3 FPV-дрон (ПГ-7ВЛ)";
+						reportRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=20;
+					type="O_UAV_01_F";
+					atlOffset=4.0488548;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3570.9395,31.299984,3928.6335};
+						angles[]={6.2694569,0.69416231,-0};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="pg_1";
+						disableSimulation=1;
+					};
+					id=21;
+					type="Item_rhs_rpg7_PG7VL_mag";
+					atlOffset=4.0032272;
+				};
+				class Item3
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6702.4526,192.63634,3034.0139};
+								angles[]={6.2694569,4.6923075,-0};
+							};
+							side="East";
+							flags=2;
+							class Attributes
+							{
+								name="fpv_1D_11";
+							};
+							id=45;
+							type="O_UAV_AI";
+							atlOffset=23.631348;
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6702.4526,192.78679,3034.0149};
+								angles[]={6.2694569,4.6923075,-0};
+							};
+							side="East";
+							class Attributes
+							{
+								name="fpv_1G_11";
+							};
+							id=46;
+							type="O_UAV_AI";
+							atlOffset=23.782089;
+						};
+					};
+					class Attributes
+					{
+					};
+					class CrewLinks
+					{
+						class LinkIDProvider
+						{
+							nextID=2;
+						};
+						class Links
+						{
+							items=2;
+							class Item0
+							{
+								linkID=0;
+								item0=45;
+								item1=47;
+								class CustomData
+								{
+									role=1;
+								};
+							};
+							class Item1
+							{
+								linkID=1;
+								item0=46;
+								item1=47;
+								class CustomData
+								{
+									role=2;
+									turretPath[]={0};
+								};
+							};
+						};
+					};
+					id=44;
+					atlOffset=4.0430412;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3567.978,31.454754,3927.5129};
+						angles[]={6.2694569,4.6923075,-0};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						name="fpv_5";
+						description="@3 FPV-дрон (ПГ-7ВЛ)";
+						reportRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=47;
+					type="O_UAV_01_F";
+					atlOffset=4.0430412;
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3567.9304,31.308149,3928.8716};
+						angles[]={6.2694569,0.70321774,-0};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="pg_2";
+						disableSimulation=1;
+					};
+					id=48;
+					type="Item_rhs_rpg7_PG7VL_mag";
+					atlOffset=4.0483818;
+				};
+				class Item6
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6702.7607,191.6321,3028.5188};
+								angles[]={6.2694569,4.6906347,-0};
+							};
+							side="East";
+							flags=2;
+							class Attributes
+							{
+								name="fpv_1D_12";
+							};
+							id=60;
+							type="O_UAV_AI";
+							atlOffset=20.833069;
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6702.7607,191.78255,3028.5198};
+								angles[]={6.2694569,4.6906347,-0};
+							};
+							side="East";
+							class Attributes
+							{
+								name="fpv_1G_12";
+							};
+							id=61;
+							type="O_UAV_AI";
+							atlOffset=20.983826;
+						};
+					};
+					class Attributes
+					{
+					};
+					class CrewLinks
+					{
+						class LinkIDProvider
+						{
+							nextID=2;
+						};
+						class Links
+						{
+							items=2;
+							class Item0
+							{
+								linkID=0;
+								item0=60;
+								item1=62;
+								class CustomData
+								{
+									role=1;
+								};
+							};
+							class Item1
+							{
+								linkID=1;
+								item0=61;
+								item1=62;
+								class CustomData
+								{
+									role=2;
+									turretPath[]={0};
+								};
+							};
+						};
+					};
+					id=59;
+					atlOffset=3.986248;
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3567.9351,31.370983,3921.4509};
+						angles[]={6.2694569,4.6906347,-0};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						name="fpv_8";
+						description="@3 FPV-дрон (ПГ-7ВЛ)";
+						reportRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=62;
+					type="O_UAV_01_F";
+					atlOffset=3.986248;
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3567.8801,31.220509,3922.8062};
+						angles[]={6.2694569,0.70157015,-0};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="pg_3";
+						disableSimulation=1;
+					};
+					id=63;
+					type="Item_rhs_rpg7_PG7VL_mag";
+					atlOffset=3.9862328;
+				};
+				class Item9
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6702.9219,189.83228,3021.4187};
+								angles[]={6.2670021,4.6674652,0.008624793};
+							};
+							side="East";
+							flags=2;
+							class Attributes
+							{
+								name="fpv_1D_13";
+							};
+							id=75;
+							type="O_UAV_AI";
+							atlOffset=16.664078;
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6702.9219,189.98273,3021.4197};
+								angles[]={6.2670021,4.6674652,0.008624793};
+							};
+							side="East";
+							class Attributes
+							{
+								name="fpv_1G_13";
+							};
+							id=76;
+							type="O_UAV_AI";
+							atlOffset=16.814835;
+						};
+					};
+					class Attributes
+					{
+					};
+					class CrewLinks
+					{
+						class LinkIDProvider
+						{
+							nextID=2;
+						};
+						class Links
+						{
+							items=2;
+							class Item0
+							{
+								linkID=0;
+								item0=75;
+								item1=77;
+								class CustomData
+								{
+									role=1;
+								};
+							};
+							class Item1
+							{
+								linkID=1;
+								item0=76;
+								item1=77;
+								class CustomData
+								{
+									role=2;
+									turretPath[]={0};
+								};
+							};
+						};
+					};
+					id=74;
+					atlOffset=3.8886795;
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3573.1851,31.273403,3916.6426};
+						angles[]={6.2670021,4.6674652,0.008624793};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						name="fpv_11";
+						description="@3 FPV-дрон (ПГ-7ВЛ)";
+						reportRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=77;
+					type="O_UAV_01_F";
+					atlOffset=3.8886795;
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3573.0898,31.137247,3917.9985};
+						angles[]={6.2670021,0.67825943,0.008624793};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="pg_4";
+						disableSimulation=1;
+					};
+					id=78;
+					type="Item_rhs_rpg7_PG7VL_mag";
+					atlOffset=3.9029713;
+				};
+			};
+			id=22;
+			atlOffset=3.9093513;
+		};
+		class Item2
+		{
+			dataType="Layer";
+			name="fpv_TBG";
+			class Entities
+			{
+				items=12;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3576.1611,31.360779,3921.4619};
+						angles[]={6.2691264,4.6917009,6.281425};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						name="fpv_3";
+						description="@3 FPV-дрон (ТБГ-7В)";
+						reportRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=26;
+					type="O_UAV_01_F";
+					atlOffset=3.9760437;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3576.0955,31.229307,3922.7852};
+						angles[]={6.2690735,0.70777762,6.281919};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="tbg_1";
+						disableSimulation=1;
+					};
+					id=27;
+					type="Item_rhs_rpg7_TBG7V_mag";
+					atlOffset=3.9950314;
+				};
+				class Item2
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6712.1128,193.37375,3026.6086};
+								angles[]={6.2691264,4.6917009,6.281425};
+							};
+							side="East";
+							flags=2;
+							class Attributes
+							{
+								name="fpv_1D_6";
+							};
+							id=24;
+							type="O_UAV_AI";
+							atlOffset=20.153015;
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6712.1128,193.52422,3026.6096};
+								angles[]={6.2691264,4.6917009,6.281425};
+							};
+							side="East";
+							class Attributes
+							{
+								name="fpv_1G_6";
+							};
+							id=25;
+							type="O_UAV_AI";
+							atlOffset=20.303864;
+						};
+					};
+					class Attributes
+					{
+					};
+					class CrewLinks
+					{
+						class LinkIDProvider
+						{
+							nextID=2;
+						};
+						class Links
+						{
+							items=2;
+							class Item0
+							{
+								linkID=0;
+								item0=24;
+								item1=26;
+								class CustomData
+								{
+									role=1;
+								};
+							};
+							class Item1
+							{
+								linkID=1;
+								item0=25;
+								item1=26;
+								class CustomData
+								{
+									role=2;
+									turretPath[]={0};
+								};
+							};
+						};
+					};
+					id=23;
+					atlOffset=3.9760437;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3567.9724,31.632343,3916.0002};
+						angles[]={0,4.702179,0};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						name="fpv_6";
+						description="@3 FPV-дрон (ТБГ-7В)";
+						reportRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=49;
+					type="O_UAV_01_F";
+					atlOffset=0.31941223;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3567.9165,31.472576,3917.322};
+						angles[]={0,0.71825552,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="tbg_2";
+						disableSimulation=1;
+					};
+					id=50;
+					type="Item_rhs_rpg7_TBG7V_mag";
+					atlOffset=0.29568481;
+				};
+				class Item5
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6712.8511,192.71419,3020.4338};
+								angles[]={0,4.702179,0};
+							};
+							side="East";
+							flags=2;
+							class Attributes
+							{
+								name="fpv_1D_7";
+							};
+							id=52;
+							type="O_UAV_AI";
+							atlOffset=16.853394;
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6712.8511,192.86465,3020.4348};
+								angles[]={0,4.702179,0};
+							};
+							side="East";
+							class Attributes
+							{
+								name="fpv_1G_7";
+							};
+							id=53;
+							type="O_UAV_AI";
+							atlOffset=17.004242;
+						};
+					};
+					class Attributes
+					{
+					};
+					class CrewLinks
+					{
+						class LinkIDProvider
+						{
+							nextID=2;
+						};
+						class Links
+						{
+							items=2;
+							class Item0
+							{
+								linkID=0;
+								item0=52;
+								item1=49;
+								class CustomData
+								{
+									role=1;
+								};
+							};
+							class Item1
+							{
+								linkID=1;
+								item0=53;
+								item1=49;
+								class CustomData
+								{
+									role=2;
+									turretPath[]={0};
+								};
+							};
+						};
+					};
+					id=51;
+					atlOffset=0.31941223;
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3570.741,31.292355,3916.8445};
+						angles[]={6.2668991,4.6747847,6.2708716};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						name="fpv_9";
+						description="@3 FPV-дрон (ТБГ-7В)";
+						reportRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=64;
+					type="O_UAV_01_F";
+					atlOffset=3.9076328;
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3570.6438,31.147814,3918.165};
+						angles[]={6.2668991,0.69092417,6.2708716};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="tbg_3";
+						disableSimulation=1;
+					};
+					id=65;
+					type="Item_rhs_rpg7_TBG7V_mag";
+					atlOffset=3.913538;
+				};
+				class Item8
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6713.1592,191.70995,3014.9387};
+								angles[]={6.2668991,4.6747847,6.2708716};
+							};
+							side="East";
+							flags=2;
+							class Attributes
+							{
+								name="fpv_1D_8";
+							};
+							id=67;
+							type="O_UAV_AI";
+							atlOffset=13.830261;
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6713.1592,191.86041,3014.9397};
+								angles[]={6.2668991,4.6747847,6.2708716};
+							};
+							side="East";
+							class Attributes
+							{
+								name="fpv_1G_8";
+							};
+							id=68;
+							type="O_UAV_AI";
+							atlOffset=13.981049;
+						};
+					};
+					class Attributes
+					{
+					};
+					class CrewLinks
+					{
+						class LinkIDProvider
+						{
+							nextID=2;
+						};
+						class Links
+						{
+							items=2;
+							class Item0
+							{
+								linkID=0;
+								item0=67;
+								item1=64;
+								class CustomData
+								{
+									role=1;
+								};
+							};
+							class Item1
+							{
+								linkID=1;
+								item0=68;
+								item1=64;
+								class CustomData
+								{
+									role=2;
+									turretPath[]={0};
+								};
+							};
+						};
+					};
+					id=66;
+					atlOffset=3.9076328;
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3577.8303,31.323568,3916.8616};
+						angles[]={6.27246,4.6875844,0.018477693};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						name="fpv_12";
+						description="@3 FPV-дрон (ТБГ-7В)";
+						reportRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=79;
+					type="O_UAV_01_F";
+					atlOffset=3.938858;
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3577.748,31.205711,3918.1843};
+						angles[]={6.27246,0.70366067,0.018477693};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						name="tbg_4";
+						disableSimulation=1;
+					};
+					id=80;
+					type="Item_rhs_rpg7_TBG7V_mag";
+					atlOffset=0.014539719;
+				};
+				class Item11
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6713.3203,189.91013,3007.8386};
+								angles[]={6.27246,4.6875844,0.018477693};
+							};
+							side="East";
+							flags=2;
+							class Attributes
+							{
+								name="fpv_1D_9";
+							};
+							id=82;
+							type="O_UAV_AI";
+							atlOffset=9.443924;
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6713.3203,190.06059,3007.8396};
+								angles[]={6.27246,4.6875844,0.018477693};
+							};
+							side="East";
+							class Attributes
+							{
+								name="fpv_1G_9";
+							};
+							id=83;
+							type="O_UAV_AI";
+							atlOffset=9.5948029;
+						};
+					};
+					class Attributes
+					{
+					};
+					class CrewLinks
+					{
+						class LinkIDProvider
+						{
+							nextID=2;
+						};
+						class Links
+						{
+							items=2;
+							class Item0
+							{
+								linkID=0;
+								item0=82;
+								item1=79;
+								class CustomData
+								{
+									role=1;
+								};
+							};
+							class Item1
+							{
+								linkID=1;
+								item0=83;
+								item1=79;
+								class CustomData
+								{
+									role=2;
+									turretPath[]={0};
+								};
+							};
+						};
+					};
+					id=81;
+					atlOffset=3.938858;
+				};
+			};
+			id=28;
+			atlOffset=0.017093658;
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3402.6865,23.939173,3551.8372};
+				angles[]={-0,6.269403,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+			};
+			id=87;
+			type="C_Offroad_01_F";
+			atlOffset=-0.02232933;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""FirstAidKit""],[4]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item4
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3522.5286,22.268173,3963.835};
+				angles[]={0.01749678,0,0.010000871};
+			};
+			id=89;
+			type="A3A_ExtendedBriefing";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="A3A_ExtendedBriefing_ExtendedBriefing";
+					expression="_this setVariable ['ExtendedBriefing',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item5
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3558.125,22.396009,3924.5288};
+				angles[]={6.2806959,0,6.2806959};
+			};
+			id=90;
+			type="A3A_EndMissionDeadUnits";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="A3A_EndMissionDeadUnits_WinSide";
+					expression="_this setVariable ['WinSide',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="A3A_EndMissionDeadUnits_MinUnits";
+					expression="_this setVariable ['MinUnits',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="A3A_EndMissionDeadUnits_Order";
+					expression="_this setVariable ['Order',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="A3A_EndMissionDeadUnits_Diary";
+					expression="_this setVariable ['Diary',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item6
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3405.7644,22.35,3546.2207};
+			};
+			id=91;
+			type="A3A_EndMissionDeadUnits";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="A3A_EndMissionDeadUnits_WinSide";
+					expression="_this setVariable ['WinSide',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="A3A_EndMissionDeadUnits_MinUnits";
+					expression="_this setVariable ['MinUnits',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="A3A_EndMissionDeadUnits_Order";
+					expression="_this setVariable ['Order',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="A3A_EndMissionDeadUnits_Diary";
+					expression="_this setVariable ['Diary',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3397.5115,23.961502,3551.6731};
+				angles[]={-0,0.013889487,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+			};
+			id=99;
+			type="C_Offroad_01_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""FirstAidKit""],[4]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3392.1658,23.961502,3551.6064};
+				angles[]={-0,6.2830248,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+			};
+			id=100;
+			type="C_Offroad_01_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""FirstAidKit""],[4]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3408.29,23.961502,3551.5203};
+				angles[]={-0,0.024194416,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+			};
+			id=101;
+			type="C_Offroad_01_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""FirstAidKit""],[4]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item10
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3403.585,22.35,3568.689};
+			};
+			id=102;
+			type="A3A_NoFreezeVehicles";
+		};
+		class Item11
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3387.3989,22.35,3570.219};
+			};
+			id=103;
+			type="ACE_moduleAddSpareParts";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ACE_moduleAddSpareParts_Part";
+					expression="_this setVariable ['Part',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="ACE_Wheel";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ACE_moduleAddSpareParts_List";
+					expression="_this setVariable ['List',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ACE_moduleAddSpareParts_Amount";
+					expression="_this setVariable ['Amount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=4;
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item12
+		{
+			dataType="Marker";
+			position[]={3630.3037,16.240458,3953.5466};
+			name="marker_0";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorBlue";
+			fillName="Grid";
+			a=19.896729;
+			b=457.0835;
+			id=104;
+			atlOffset=-4.5857067;
+		};
+		class Item13
+		{
+			dataType="Marker";
+			position[]={3332.6724,17.916677,3950.9067};
+			name="marker_1";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorBlue";
+			fillName="Grid";
+			a=19.896729;
+			b=459.85425;
+			id=105;
+		};
+		class Item14
+		{
+			dataType="Marker";
+			position[]={3481.593,13.371555,3484.0564};
+			name="marker_2";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorBlue";
+			fillName="Grid";
+			a=168.84058;
+			b=16.124756;
+			id=106;
+			atlOffset=-0.048877716;
+		};
+		class Item15
+		{
+			dataType="Marker";
+			position[]={3481.1516,17.945301,4394.2158};
+			name="marker_3";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorBlue";
+			fillName="Grid";
+			a=168.84058;
+			b=16.124756;
+			id=107;
+		};
+		class Item16
+		{
+			dataType="Marker";
+			position[]={3629.6001,20.774,3951.199};
+			name="net";
+			type="mil_box";
+			alpha=0;
+			id=108;
+			atlOffset=1.7166138e-005;
+		};
+		class Item17
+		{
+			dataType="Trigger";
+			position[]={2906.7295,25.238737,3870.8784};
+			class Attributes
+			{
+				sizeA=407.10501;
+				sizeB=859.849;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=109;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item18
+		{
+			dataType="Trigger";
+			position[]={4056.8342,16.002718,3881.1396};
+			class Attributes
+			{
+				sizeA=407.10501;
+				sizeB=859.849;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=110;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item19
+		{
+			dataType="Trigger";
+			position[]={3482.1802,42.187393,5269.9556};
+			class Attributes
+			{
+				sizeA=973.24268;
+				sizeB=859.849;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=111;
+			type="EmptyDetectorAreaR250";
+			atlOffset=0.2561264;
+		};
+		class Item20
+		{
+			dataType="Trigger";
+			position[]={3532.8162,11.341439,2609.3848};
+			class Attributes
+			{
+				sizeA=1000.4794;
+				sizeB=859.849;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=112;
+			type="EmptyDetectorAreaR250";
+			atlOffset=0.27821064;
+		};
+		class Item21
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3400.5891,22.351435,3545.5776};
+						angles[]={0,6.2412176,-0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="COLONEL";
+						init=" [this, ""BLUE"", ""KO""] call unitGearProcessor;";
+						description="1: Синий";
+						isPlayable=1;
+					};
+					id=114;
+					type="mkk_Survivor_B";
+					atlOffset=-3.8146973e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=113;
+			atlOffset=-3.8146973e-006;
+		};
+		class Item22
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3398.3989,22.351439,3545.7332};
+						angles[]={0,6.2388654,-0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="COLONEL";
+						init=" [this, ""BLUE"", ""KO""] call unitGearProcessor;";
+						description="1: Синий";
+						isPlayable=1;
+					};
+					id=116;
+					type="mkk_Survivor_B";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=115;
+		};
+		class Item23
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3550.49,35.390652,4034.0439};
+						angles[]={0,4.6541295,0};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						rank="COLONEL";
+						init=" [this, ""RED"", ""SPNKO""] call unitGearProcessor;";
+						name="dronePP";
+						description="1: Красный";
+						isPlayer=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_O_CombatUniform_ocamo";
+								isBackpack=0;
+							};
+							class backpack
+							{
+								typeName="UNS_Alice_1";
+								isBackpack=1;
+							};
+							gps="O_UavTerminal";
+						};
+					};
+					id=118;
+					type="mkk_Survivor_O";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=117;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };                        ";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Альфа 1-1";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item24
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3550.5891,35.435863,4036.592};
+						angles[]={0,4.6937838,0};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						rank="COLONEL";
+						init=" [this, ""RED"", ""SPNKO""] call unitGearProcessor;";
+						name="dronePP_1";
+						description="1: Красный";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_O_CombatUniform_ocamo";
+								isBackpack=0;
+							};
+							class backpack
+							{
+								typeName="UNS_Alice_1";
+								isBackpack=1;
+							};
+							gps="O_UavTerminal";
+						};
+					};
+					id=120;
+					type="mkk_Survivor_O";
+					atlOffset=0.00024032593;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=119;
+			atlOffset=0.00024032593;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };                        ";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Альфа 1-2";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+	};
+	class Connections
+	{
+		class LinkIDProvider
+		{
+			nextID=16;
+		};
+		class Links
+		{
+			items=16;
+			class Item0
+			{
+				linkID=0;
+				item0=3;
+				item1=90;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item1
+			{
+				linkID=1;
+				item0=72;
+				item1=90;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item2
+			{
+				linkID=2;
+				item0=42;
+				item1=90;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item3
+			{
+				linkID=3;
+				item0=57;
+				item1=90;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item4
+			{
+				linkID=4;
+				item0=77;
+				item1=90;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item5
+			{
+				linkID=5;
+				item0=20;
+				item1=90;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item6
+			{
+				linkID=6;
+				item0=47;
+				item1=90;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item7
+			{
+				linkID=7;
+				item0=62;
+				item1=90;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item8
+			{
+				linkID=8;
+				item0=79;
+				item1=90;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item9
+			{
+				linkID=9;
+				item0=26;
+				item1=90;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item10
+			{
+				linkID=10;
+				item0=49;
+				item1=90;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item11
+			{
+				linkID=11;
+				item0=64;
+				item1=90;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item12
+			{
+				linkID=12;
+				item0=101;
+				item1=103;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item13
+			{
+				linkID=13;
+				item0=87;
+				item1=103;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item14
+			{
+				linkID=14;
+				item0=99;
+				item1=103;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item15
+			{
+				linkID=15;
+				item0=100;
+				item1=103;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+		};
+	};
+};

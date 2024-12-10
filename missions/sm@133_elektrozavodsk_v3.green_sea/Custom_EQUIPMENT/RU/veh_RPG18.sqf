@@ -1,0 +1,1 @@
+_veh addWeaponCargoGlobal ["mkk_rhs_weap_rpg18",3];

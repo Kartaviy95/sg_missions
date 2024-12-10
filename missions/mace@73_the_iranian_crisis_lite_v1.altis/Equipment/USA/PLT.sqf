@@ -1,0 +1,30 @@
+// SolidGames
+
+_this addBackpack "B_Carryall_Base";
+
+// Weapons with attachments:
+
+_this addItem "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+_this addWeapon "rhs_weap_mk18";
+
+removeBackpack _this;
+
+
+// Uniform with items:
+_this forceAddUniform "rhs_uniform_acu_ocp";
+
+// Vest with items:
+_this addVest "rhsusf_iotv_ocp";
+for "_i" from 1 to 2 do { _this addItemToVest "rhs_mag_m18_yellow";};
+for "_i" from 1 to 2 do { _this addItemToVest "rhs_mag_m67";};
+for "_i" from 1 to 5 do { _this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
+for "_i" from 1 to 2 do { _this addItemToVest "rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red";};
+
+// Backpack with items:
+_this addBackpack "B_Parachute";
+_this addHeadgear "rhsusf_ihadss";
+
+_this linkItem "ItemMap";
+_this linkItem "ItemCompass";
+_this linkItem "ItemRadio";
+_this linkItem "ItemGPS";

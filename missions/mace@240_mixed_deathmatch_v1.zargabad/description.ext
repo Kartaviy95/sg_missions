@@ -1,0 +1,82 @@
+//GOM_fnc_aircraftLoadout V1.35 made by Grumpy Old Man 17-5-2017
+
+enableDebugConsole = 0;
+
+
+class CfgFunctions
+{
+
+
+	#include "scripts\GOM\functions\GOM_fnc_functions.hpp"
+	
+	
+	class killfeed {
+		tag = "kill";
+		class functions {
+			file = "scripts\killfeed\functions";
+			class killfeedMain {};
+			class killfeedCompile {};
+			class killfeedType {};
+			class killfeedRender {};
+		};
+	};
+};
+
+
+class CfgCommunicationMenu
+{
+
+	#include "scripts\GOM\functions\GOM_fnc_aircraftLoadoutMenu.hpp"
+
+};
+
+#include "scripts\GOM\dialogs\GOM_dialog_parents.hpp"
+#include "scripts\GOM\dialogs\GOM_dialog_controls.hpp"
+#include "scripts\killfeed\dialogs\common.hpp"
+
+class RscTitles {
+    #include "scripts\killfeed\dialogs\titles.hpp"
+};
+
+briefing = 0;
+debriefing = 1;
+
+overviewPicture = "";
+overviewText = "Ты наверное не знал, что тебе суждено умереть сегодня.";
+OnLoadName = "Solid_DM";
+author = "tElore";
+
+class CfgSounds
+{
+	sounds[] = {};
+	class wolf1
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "my_wolf_sound1";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "1.ogg", 50, 1, 0 };
+		titles[] = { 1, "" };
+	};
+	class wolf2
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "my_wolf_sound2";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "2.ogg", 50, 1, 0 };
+		titles[] = { 1, "" };
+
+	};
+	class wolf3
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "my_wolf_sound3";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "3.ogg", 8, 1, 0 };
+		titles[] = { 1, "" };
+
+	};
+
+};

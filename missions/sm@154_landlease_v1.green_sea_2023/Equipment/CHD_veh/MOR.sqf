@@ -1,0 +1,14 @@
+﻿_this addItemCargoGlobal ["rhs_mag_rgd5",4];
+_this addItemCargoGlobal ["rhs_mag_rdg2_white",4];
+_this addItemCargoGlobal ["rhs_30Rnd_762x39mm_polymer",3];
+_this addItemCargoGlobal ["rhs_30Rnd_762x39mm_polymer_tracer",2];
+_this addItemCargoGlobal ["ACE_tourniquet",3];
+_this addItemCargoGlobal ["ACE_fieldDressing",5];
+_this addItemCargoGlobal ["ACE_elasticBandage",5];
+_this addItemCargoGlobal ["ACE_packingBandage",5];
+_this addItemCargoGlobal ["ACE_quikclot",5];
+_this addItemCargoGlobal ["ACE_morphine",2];
+_this addItemCargoGlobal ["ACE_epinephrine",2];
+_this addItemCargoGlobal ["ACE_rope6",2];
+_this addItemCargoGlobal ["ACE_rope12",2];
+_this addItemCargoGlobal ["ACE_splint",8];

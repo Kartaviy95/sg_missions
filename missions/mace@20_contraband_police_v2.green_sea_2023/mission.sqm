@@ -1,0 +1,2174 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1545;
+	class ItemIDProvider
+	{
+		nextID=217;
+	};
+	class MarkerIDProvider
+	{
+		nextID=2;
+	};
+	class LayerIndexProvider
+	{
+		nextID=9;
+	};
+	class Camera
+	{
+		pos[]={20501.215,118.14142,7447.2227};
+		dir[]={0.40822175,-0.56596226,0.71630818};
+		up[]={0.28022566,0.82442331,0.49171323};
+		aside[]={0.86883843,5.3376425e-008,-0.49514857};
+	};
+};
+binarizationWanted=0;
+sourceName="mace@20_contraband_police_v1";
+addons[]=
+{
+	"A3_Ui_F",
+	"A3_Modules_F",
+	"CUP_Misc3_Config",
+	"CUP_Misc_e_Config",
+	"A3_Structures_F_Enoch_Military_Barracks",
+	"mkk_rebalance_bis",
+	"rhs_c_weapons",
+	"mkk_vtn_uaz",
+	"CUP_Editor_Signs_Config",
+	"A3_Structures_F_Enoch_Infrastructure_Railways",
+	"rds_A2_Civilians"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=11;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="CUP_Misc3_Config";
+			name="CUP_Misc3_Config";
+		};
+		class Item3
+		{
+			className="CUP_Misc_e_Config";
+			name="CUP_Misc_e_Config";
+		};
+		class Item4
+		{
+			className="A3_Structures_F_Enoch_Military";
+			name="Arma 3 Contact Platform - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item5
+		{
+			className="mkk_rebalance_bis";
+			name="mkk_rebalance_bis";
+		};
+		class Item6
+		{
+			className="rhs_c_weapons";
+			name="AFRF Weapons Pack";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item7
+		{
+			className="mkk_vtn_uaz";
+			name="mkk_vtn_uaz";
+		};
+		class Item8
+		{
+			className="CUP_Editor_Signs_Config";
+			name="CUP_Editor_Signs_Config";
+		};
+		class Item9
+		{
+			className="A3_Structures_F_Enoch_Infrastructure";
+			name="Arma 3 Contact Platform - Infrastructure Objects";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item10
+		{
+			className="rds_A2_Civilians";
+			name="RDS Гражданская техника";
+			author="reyhard";
+			url="https://forums.bistudio.com/topic/170165-rds-a2-civilian-pack/";
+		};
+	};
+};
+dlcs[]=
+{
+	"Enoch",
+	"VTN",
+	"RDS_CIV_PACK"
+};
+randomSeed=11622232;
+class ScenarioData
+{
+	author="edge";
+	respawn=1;
+};
+class CustomAttributes
+{
+	class Category1
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Seagull";
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		overviewText="Атак банды Оберанкова на пропускной пункт Акаристанской Народной Республики";
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.25;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2010;
+		month=10;
+		day=5;
+		hour=16;
+		minute=25;
+		startFogBase=250;
+		forecastFogBase=250;
+		startFogDecay=0.017999999;
+		forecastFogDecay=0.017999999;
+	};
+	class Entities
+	{
+		items=24;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={20550.029,41.729477,7582.1523};
+			name="marker_0";
+			markerType="ELLIPSE";
+			type="";
+			colorName="ColorBlue";
+			fillName="Border";
+			a=92.425766;
+			b=131.54774;
+			angle=319.85696;
+			drawBorder=1;
+			id=1;
+			atlOffset=-1.060524;
+		};
+		class Item1
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={20548.938,45.597,7560.9141};
+				angles[]={0.16287412,0.40769145,6.2286611};
+			};
+			areaSize[]={12.868,0,5};
+			flags=1;
+			id=2;
+			type="ModuleHideTerrainObjects_F";
+			atlOffset=2.8069992;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=15;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20547.494,43.415546,7610.3667};
+				angles[]={0.0016558425,1.6511693,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=141;
+			type="Land_HBarrier5";
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20547.82,43.423836,7616.1484};
+				angles[]={6.2798557,1.6511693,0.0041575679};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=142;
+			type="Land_HBarrier5";
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20549.965,45.001717,7602.9985};
+				angles[]={0,6.1941214,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=145;
+			type="Land_Fort_Watchtower_EP1";
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20566.111,45.015068,7556.8179};
+				angles[]={0.0041575679,3.9042745,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=146;
+			type="Land_Fort_Watchtower_EP1";
+			atlOffset=7.6293945e-006;
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20533.768,47.586906,7600.9927};
+				angles[]={0,5.4983783,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=147;
+			type="Land_GuardTower_01_F";
+			atlOffset=7.6293945e-005;
+		};
+		class Item7
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=8;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20554.109,42.791439,7567.71};
+						angles[]={0,0.51281261,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="[this,""BLUFOR"",""cop1""] call Serp_unitprocessor;";
+						description="Начальник заставы";
+						isPlayable=1;
+					};
+					id=161;
+					type="mkk_Survivor_B";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20553.066,42.791439,7568.395};
+						angles[]={0,0.51281261,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""BLUFOR"",""cop2""] call Serp_unitprocessor;";
+						description="Старший пограничник";
+						isPlayable=1;
+					};
+					id=162;
+					type="mkk_Survivor_B";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20552.01,42.791439,7569.0498};
+						angles[]={0,0.51281261,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""BLUFOR"",""cop3""] call Serp_unitprocessor;";
+						description="Пограничник";
+						isPlayable=1;
+					};
+					id=163;
+					type="mkk_Survivor_B";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20550.801,42.791439,7569.8037};
+						angles[]={0,0.51281261,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""BLUFOR"",""cop3""] call Serp_unitprocessor;";
+						description="Пограничник";
+						isPlayable=1;
+					};
+					id=164;
+					type="mkk_Survivor_B";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20549.451,42.791439,7570.6187};
+						angles[]={0,0.51281261,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""BLUFOR"",""cop3""] call Serp_unitprocessor;";
+						description="Пограничник";
+						isPlayable=1;
+					};
+					id=165;
+					type="mkk_Survivor_B";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20547.434,42.791439,7572.002};
+						angles[]={0,0.44718096,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""BLUFOR"",""cop3""] call Serp_unitprocessor;";
+						description="Пограничник";
+						isPlayable=1;
+					};
+					id=200;
+					type="mkk_Survivor_B";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20545.002,42.791439,7573.4907};
+						angles[]={0,0.43627509,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""BLUFOR"",""cop4""] call Serp_unitprocessor;";
+						description="Тяжелый пограничник";
+						isPlayable=1;
+					};
+					id=201;
+					type="mkk_Survivor_B";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20542.316,42.791439,7575.1499};
+						angles[]={0,0.40668017,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""BLUFOR"",""cop7""] call Serp_unitprocessor;";
+						description="Снайпер";
+						isPlayable=1;
+					};
+					id=214;
+					type="mkk_Survivor_B";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=160;
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20537.922,43.207878,7568.5952};
+				angles[]={0,3.5541711,0.00083775807};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this,""BLUFOR"",""yashik""] call Serp_vehprocessor;";
+			};
+			id=169;
+			type="rhs_weapon_crate";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item9
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20648.893,71.530182,7172.3101};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						rank="LIEUTENANT";
+						init="[this,""OPFOR"",""opforko""] call Serp_unitprocessor;";
+						description="Командир группы боевиков";
+						isPlayable=1;
+					};
+					id=173;
+					type="mkk_Survivor_O";
+					atlOffset=0.00012969971;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20646.59,71.233444,7172.3711};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""OPFOR"",""opforpeh2""] call Serp_unitprocessor;";
+						description="Старший стрелок";
+						isPlayable=1;
+					};
+					id=174;
+					type="mkk_Survivor_O";
+					atlOffset=0.00012207031;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20643.828,70.760651,7172.501};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""OPFOR"",""opformg""] call Serp_unitprocessor;";
+						description="Пулемётчик";
+						isPlayable=1;
+					};
+					id=175;
+					type="mkk_Survivor_O";
+					atlOffset=0.00012207031;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20640.539,70.202927,7172.5488};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""OPFOR"",""opforgp""] call Serp_unitprocessor;";
+						description="Стрелок с ГП";
+						isPlayable=1;
+					};
+					id=176;
+					type="mkk_Survivor_O";
+					atlOffset=0.00012207031;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20636.498,69.715027,7172.5259};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="[this,""OPFOR"",""opforpeh""] call Serp_unitprocessor;";
+						description="Стрелок";
+						isPlayable=1;
+					};
+					id=177;
+					type="mkk_Survivor_O";
+					atlOffset=0.28502655;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=172;
+			atlOffset=0.00012969971;
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20639.59,70.083923,7178.4521};
+				angles[]={0.012501417,4.9200706,0.21734452};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+				init="[this,""OPFOR"",""uaz""] call Serp_vehprocessor;";
+				textures="Standard";
+			};
+			id=179;
+			type="mkk_VTN_UAZ469_PKMS";
+			atlOffset=0.0063705444;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Standard";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=4;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="shield1";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+											class Item2
+											{
+												class data
+												{
+													singleType="STRING";
+													value="maskirovka";
+												};
+											};
+											class Item3
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="rhs_decalArmy_type";
+					expression="_this setVariable ['rhs_decalArmy_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="rhs_decalNumber_type";
+					expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cDecals4CarsNumberPlaces, _value]]] call rhs_fnc_decalsInit";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Default";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="rhs_decalArmy";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsCarsRightArmyPlaces,  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="rhs_decalPlatoon_type";
+					expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="rhs_decalPlatoon";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsCarsRightPlatoonPlaces,  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				nAttributes=6;
+			};
+		};
+		class Item11
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20846.225,4.0605288,7145.5576};
+						angles[]={0,4.8882804,0};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						rank="LIEUTENANT";
+						init="[this,""OPFOR"",""opforko""] call Serp_unitprocessor;";
+						description="Командир группы боевиков";
+						isPlayable=1;
+					};
+					id=186;
+					type="mkk_Survivor_O";
+					atlOffset=4.8160553e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20845.764,3.9732244,7143.3013};
+						angles[]={0,4.8882804,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""OPFOR"",""opforpeh2""] call Serp_unitprocessor;";
+						description="Старший стрелок";
+						isPlayable=1;
+					};
+					id=187;
+					type="mkk_Survivor_O";
+					atlOffset=4.696846e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20845.152,3.8850849,7140.6045};
+						angles[]={0,4.8882804,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""OPFOR"",""opformg""] call Serp_unitprocessor;";
+						description="Пулемётчик";
+						isPlayable=1;
+					};
+					id=188;
+					type="mkk_Survivor_O";
+					atlOffset=4.8398972e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20844.529,3.7883804,7137.374};
+						angles[]={0,4.8882804,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""OPFOR"",""opforgp""] call Serp_unitprocessor;";
+						description="Стрелок с ГП";
+						isPlayable=1;
+					};
+					id=189;
+					type="mkk_Survivor_O";
+					atlOffset=4.8398972e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20843.844,3.6966202,7133.3936};
+						angles[]={0,4.8882804,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""OPFOR"",""opforpeh""] call Serp_unitprocessor;";
+						description="Стрелок";
+						isPlayable=1;
+					};
+					id=190;
+					type="mkk_Survivor_O";
+					atlOffset=4.696846e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=185;
+			atlOffset=4.8160553e-005;
+		};
+		class Item12
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20835.051,3.9970436,7121.2749};
+						angles[]={0,1.6298302,0};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						rank="LIEUTENANT";
+						init="[this,""OPFOR"",""opforko""] call Serp_unitprocessor;";
+						description="Командир снайперской пары";
+						isPlayable=1;
+					};
+					id=193;
+					type="mkk_Survivor_O";
+					atlOffset=0.0013372898;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20836.178,3.8615136,7125.8794};
+						angles[]={0,1.6298302,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="[this,""OPFOR"",""opforsnp""] call Serp_unitprocessor;";
+						description="Снайпер";
+						isPlayable=1;
+					};
+					id=195;
+					type="mkk_Survivor_O";
+					atlOffset=0.001336813;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=192;
+			atlOffset=0.0013372898;
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20839.676,3.7909203,7122.8848};
+				angles[]={0.0079110814,0.17651401,6.252779};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+				init="[this,""OPFOR"",""snpuaz""] call Serp_vehprocessor;";
+			};
+			id=199;
+			type="mkk_VTN_UAZ3151_OPEN";
+			atlOffset=-0.0013892651;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="rhs_decalArmy_type";
+					expression="_this setVariable ['rhs_decalArmy_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="rhs_decalNumber_type";
+					expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cDecals4CarsNumberPlaces, _value]]] call rhs_fnc_decalsInit";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Default";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="rhs_decalArmy";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsCarsRightArmyPlaces,  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="rhs_decalPlatoon_type";
+					expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="rhs_decalPlatoon";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsCarsRightPlatoonPlaces,  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=6;
+			};
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20581.293,44.125359,7560.5293};
+				angles[]={0,5.5204353,0.0070758825};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=202;
+			type="CUP_sign_stop";
+			atlOffset=-0.29563904;
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20572.5,42.622581,7576.1196};
+				angles[]={0,5.4694142,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=204;
+			type="Land_Rail_Platform_Start_F";
+			atlOffset=-0.60069656;
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20568.027,42.622581,7580.3354};
+				angles[]={0,2.324626,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=205;
+			type="Land_Rail_Platform_Start_F";
+			atlOffset=-0.60069656;
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20570.426,44.770451,7577.8579};
+				angles[]={0,5.4980316,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				lock="LOCKED";
+				textures="standard";
+			};
+			id=207;
+			type="RDS_S1203_Civ_01";
+			atlOffset=0.38537598;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="standard";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20581.246,44.720757,7554.2446};
+				angles[]={0.020926498,5.5729585,6.2825046};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="LOCKED";
+			};
+			id=208;
+			type="RDS_Ikarus_Civ_02";
+			atlOffset=-0.02728653;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="rds_lock_cargo";
+					expression="_this setVariable ['rds_lock_cargo', _value,true];_this lockCargo _value";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item19
+		{
+			dataType="Trigger";
+			position[]={20540.898,42.790001,7583.3071};
+			angle=0.73059452;
+			class Attributes
+			{
+				onActivation="if (playerside == west) then  " \n "{ " \n "playSoundUI  [getMissionPath ""sound.ogg""]; " \n "};";
+				sizeA=43.979;
+				sizeB=36.948002;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=211;
+			type="EmptyDetector";
+		};
+		class Item20
+		{
+			dataType="Layer";
+			name="11111";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Trigger";
+					position[]={20537.496,46.056,7560.627};
+					angle=0.45329687;
+					class Attributes
+					{
+						name="tg1";
+						condition="call{(west countSide thislist < 1) && (east countSide thislist > 1)}";
+						onActivation="call{[""Заложник освобождён, победа боевиков!"", EAST] call a3a_fnc_endMission;}";
+						sizeA=7.8319998;
+						sizeB=6.8769999;
+						sizeC=5.4819999;
+						timeout[]={5,5,5};
+						interuptable=1;
+						activationBy="ANY";
+						isRectangle=1;
+						isServerOnly=1;
+						triggerInterval=1;
+					};
+					id=213;
+					type="EmptyDetector";
+					atlOffset=2.5724792;
+				};
+			};
+			id=212;
+			atlOffset=2.5724792;
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20545.445,48.46656,7559.542};
+				angles[]={0,0.45153415,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=3;
+			type="Land_Barracks_06_F";
+			atlOffset=-3.8146973e-006;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="DoorStates";
+					expression="['init',_this,_value] call bis_fnc_3DENAttributeDoorStates;";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=16;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item22
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20841.324,3.8760743,7140.0791};
+				angles[]={6.2656889,0.1759042,0.0020716023};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+				init="[this,""OPFOR"",""uaz""] call Serp_vehprocessor;";
+				textures="Standard";
+			};
+			id=215;
+			type="mkk_VTN_UAZ469_PKMS";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Standard";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=4;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="shield1";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+											class Item2
+											{
+												class data
+												{
+													singleType="STRING";
+													value="maskirovka";
+												};
+											};
+											class Item3
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="rhs_decalArmy_type";
+					expression="_this setVariable ['rhs_decalArmy_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="rhs_decalNumber_type";
+					expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cDecals4CarsNumberPlaces, _value]]] call rhs_fnc_decalsInit";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Default";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="rhs_decalArmy";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsCarsRightArmyPlaces,  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="rhs_decalPlatoon_type";
+					expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="rhs_decalPlatoon";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsCarsRightPlatoonPlaces,  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				nAttributes=6;
+			};
+		};
+		class Item23
+		{
+			dataType="Marker";
+			position[]={20537.484,42.790001,7560.728};
+			name="marker_1";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorBlue";
+			fillName="FDiagonal";
+			a=7.7649999;
+			b=6.7059999;
+			angle=26.725998;
+			id=216;
+		};
+	};
+};

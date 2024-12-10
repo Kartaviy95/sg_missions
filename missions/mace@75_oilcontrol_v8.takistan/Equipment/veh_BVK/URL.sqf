@@ -1,0 +1,26 @@
+﻿_veh = _this select 0;
+
+_veh addItemCargoGlobal ["rhs_weap_rshg2",1];
+_veh addItemCargoGlobal ["rhs_weap_rpg26",1];
+_veh addItemCargoGlobal ["ACE_tourniquet",8];
+_veh addItemCargoGlobal ["ACE_fieldDressing",10];
+_veh addItemCargoGlobal ["ACE_elasticBandage",10];
+_veh addItemCargoGlobal ["ACE_packingBandage",10];
+_veh addItemCargoGlobal ["ACE_quikclot",10];
+_veh addItemCargoGlobal ["ACE_morphine",8];
+_veh addItemCargoGlobal ["ACE_epinephrine",8];
+_veh addItemCargoGlobal ["ACE_EarPlugs",6];
+_veh addItemCargoGlobal ["rhs_mag_rgd5",10];
+_veh addItemCargoGlobal ["rhs_mag_rdg2_white",10];
+_veh addItemCargoGlobal ["rhs_30Rnd_545x39_7N10_AK",5];
+_veh addItemCargoGlobal ["rhs_30Rnd_545x39_AK_plum_green",3];
+_veh addItemCargoGlobal ["rhs_100Rnd_762x54mmR",3];
+_veh addItemCargoGlobal ["rhs_30Rnd_762x39mm_89",4];
+_veh addItemCargoGlobal ["rhs_30Rnd_762x39mm_tracer",2];
+_veh addItemCargoGlobal ["rhs_mag_30Rnd_556x45_M855_Stanag",6];
+_veh addItemCargoGlobal ["rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",3];
+_veh addItemCargoGlobal ["rhs_rpg7_PG7VL_mag",2];
+_veh addItemCargoGlobal ["rhs_rpg7_OG7V_mag",2];
+_veh addItemCargoGlobal ["rhs_10Rnd_762x54mmR_7N14",6];
+_veh addItemCargoGlobal ["rhs_45Rnd_545X39_7N10_AK",4];
+_veh addItemCargoGlobal ["rhs_45Rnd_545X39_AK_Green",2];

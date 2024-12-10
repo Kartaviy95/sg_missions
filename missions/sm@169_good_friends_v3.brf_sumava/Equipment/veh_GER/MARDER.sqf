@@ -1,0 +1,24 @@
+﻿_veh = _this select 0;
+
+_veh addWeaponCargoGlobal ["BWA3_RGW90MP_Loaded",2];
+_veh addWeaponCargoGlobal ["BWA3_RGW90_Loaded",1];
+_veh addWeaponCargoGlobal ["rhs_weap_g36c",3];
+_veh addItemCargoGlobal ["rhsusf_acc_eotech_552",3];
+_veh addItemCargoGlobal ["rhssaf_30rnd_556x45_SOST_G36",20];
+_veh addItemCargoGlobal ["rhssaf_30rnd_556x45_Tracers_G36",10];
+_veh addItemCargoGlobal ["rhssaf_100rnd_556x45_EPR_G36",5];
+_veh addItemCargoGlobal ["BWA3_120Rnd_762x51_soft",5];
+_veh addItemCargoGlobal ["mkk_pzf3_tandem",3];
+_veh addItemCargoGlobal ["rhs_mag_M441_HE",25];
+_veh addItemcargoglobal ["BWA3_DM25",25];
+_veh addItemcargoglobal ["BWA3_DM51A1",25];
+_veh addItemcargoglobal ["LOP_H_Beanie_flec", 3];
+    _veh addItemcargoglobal ["ACE_quikclot", 20]; 
+    _veh addItemcargoglobal ["ACE_elasticBandage", 20]; 
+    _veh addItemcargoglobal ["ACE_fieldDressing", 20]; 
+    _veh addItemcargoglobal ["ACE_epinephrine", 20];
+    _veh addItemcargoglobal ["ACE_packingBandage", 20];
+    _veh addItemcargoglobal ["ACE_morphine", 10];
+    _veh addItemcargoglobal ["ACE_tourniquet", 10];
+    _veh addItemCargoGlobal ["ACE_epinephrine",30];
+    _veh addItemCargoGlobal ["DemoCharge_Remote_Mag",6];

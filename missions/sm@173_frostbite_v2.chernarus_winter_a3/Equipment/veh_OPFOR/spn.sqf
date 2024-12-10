@@ -1,0 +1,14 @@
+_veh = _this select 0;
+_veh addItemcargoGlobal ["ACE_morphine",22];
+_veh addItemcargoGlobal ["ACE_epinephrine",22];
+_veh addItemcargoGlobal ["ACE_fieldDressing",22]; 
+_veh addItemcargoGlobal ["ACE_tourniquet",22]; 
+_veh addItemcargoGlobal ["ACE_quikclot",22];
+_veh addItemcargoGlobal ["ACE_elasticBandage",22];
+_veh addItemcargoGlobal ["ACE_packingBandage", 22];
+_veh addItemcargoGlobal ["ACE_personalAidKit",5];
+_veh addItemcargoGlobal ["ACE_surgicalKit",5];
+_veh addItemcargoGlobal ["rhs_30Rnd_545x39_7N10_AK",20];
+_veh addItemcargoGlobal ["rhs_mag_rgd5",8];
+_veh addItemcargoGlobal ["rhs_mag_rdg2_black",8];
+_veh addItemcargoGlobal ["rhs_weap_rpg26",1];

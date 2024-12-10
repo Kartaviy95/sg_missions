@@ -1,0 +1,70 @@
+// Written by Blender
+enableDebugConsole = 0;
+
+// Disposable wrecks and corpses settings
+// BIKI: https://community.bistudio.com/wiki/Description.ext#corpseLimit
+corpseLimit = 300;
+corpseRemovalMaxTime = 10000;
+wreckLimit = 300;
+wreckRemovalMaxTime = 10000;
+
+// Extended flight model
+// 0 - Player chosen, 1 - Force Enable, 2 - Force Disable
+// BIKI: https://community.bistudio.com/wiki/Description.ext#forceRotorLibSimulation
+forceRotorLibSimulation = 0;
+
+#include "A3A_SETUP\a3a_header.hpp"
+#include "mission_description.hpp"
+#include "A3A_SETUP\a3a_parameters.hpp"
+
+class A3A_MissionParams {
+	#include "mission_parameters.hpp"
+};
+
+class CfgFunctions
+{
+    class mis
+    {
+        class Main
+        {
+            file="mis_funcs";
+            class preinit
+            {
+                preInit=1;
+                postInit=0;
+            };
+
+        };
+    };
+};
+
+class CfgSounds
+{
+	class krik
+	{
+		name = "krik"; // Name for mission editor
+		sound[] = {\Sound\krik.ogg, 1, 1};
+		titles[] = {0, ""};
+	};
+	class prizr
+	{
+		name = "prizr"; // Name for mission editor
+		sound[] = {\Sound\prizr.ogg, 1, 1};
+		titles[] = {0, ""};
+	};
+	class voda
+	{
+		name = "voda";
+		sound[] = {\Sound\voda.ogg, 1, 1};
+		titles[] = {0, ""};
+	};
+	class shagi
+	{
+		name = "shagi";
+		sound[] = {\Sound\shagi.ogg, 1, 1};
+		titles[] = {0, ""};
+	};
+	
+
+
+};

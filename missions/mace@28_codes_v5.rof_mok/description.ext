@@ -1,0 +1,28 @@
+﻿author = "tElore"; // Автор миссии (учитывайте, что в английской версии пишет "by")
+onLoadName = "Codes";
+onLoadMission = "SolidMace"; // Описание миссии на загрузочном экране
+loadScreen = "Images\codes.jpg"; // Путь до изображения, показываемого на загрузочном экране
+
+// отключает консоль на миссии
+enableDebugConsole = 0;
+
+// нужно для настройки Atrium
+#include "Atrium\Setup\a3a_header.hpp"
+#include "Atrium\Setup\a3a_parameters.hpp"
+
+class A3A_MissionParams {
+	#include "mission_parameters.hpp"
+};
+
+class CfgFunctions {
+	// нужно для настройки Atrium
+	#include "Atrium\Setup\a3a_functions.hpp"
+
+	// нужно для работы скрипта на зоны
+	#include "Scripts\CapturePoint\Setup\functions.hpp"
+};
+
+// нужно для работы скрипта на зоны
+#include "Scripts\CapturePoint\Setup\notifications.hpp"
+
+

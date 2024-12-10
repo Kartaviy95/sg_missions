@@ -1,0 +1,1869 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=138;
+	};
+	class MarkerIDProvider
+	{
+		nextID=2;
+	};
+	class Camera
+	{
+		pos[]={10890.501,13.469869,12054.828};
+		dir[]={0.86137128,-0.41254395,0.29640761};
+		up[]={0.39009896,0.91093546,0.13423777};
+		aside[]={0.32538703,1.929584e-007,-0.94558662};
+	};
+};
+binarizationWanted=0;
+
+addons[]=
+{
+	"mkk_rebalance_bis",
+	"CUP_CAStructures_Rail",
+	"A3_Structures_F_Wrecks",
+	"A3_Structures_F_Enoch_Wrecks",
+	"rhsgref_c_air",
+	"A3_Props_F_Exp_Industrial_HeavyEquipment",
+	"A3_Props_F_Exp_Infrastructure_Railways",
+	"rds_A2_Civilians",
+	"A3_Ui_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=8;
+		class Item0
+		{
+			className="mkk_rebalance_bis";
+			name="mkk_rebalance_bis";
+		};
+		class Item1
+		{
+			className="CUP_CAStructures_Rail";
+			name="CUP_CAStructures_Rail";
+		};
+		class Item2
+		{
+			className="A3_Structures_F_Wrecks";
+			name="Arma 3 - Vehicle Wrecks";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Structures_F_Enoch";
+			name="Arma 3 Contact Platform - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
+			className="rhsgref_c_air";
+			name="GREF Planes";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item5
+		{
+			className="A3_Props_F_Exp";
+			name="Arma 3 Apex - Decorative and Mission Objects";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="rds_A2_Civilians";
+			name="RDS Гражданская техника";
+			author="reyhard";
+			url="https://forums.bistudio.com/topic/170165-rds-a2-civilian-pack/";
+		};
+		class Item7
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+dlcs[]=
+{
+	"Enoch",
+	"Expansion",
+	"RDS_CIV_PACK"
+};
+randomSeed=1031424;
+class ScenarioData
+{
+	author="Olves";
+	respawn=1;
+};
+class CustomAttributes
+{
+	class Category1
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Seagull";
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.25;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2022;
+		month=9;
+		day=24;
+		hour=16;
+		minute=0;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=50;
+		class Item0
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10886.571,8.0000658,11704.785};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""BLUEFOR"",""american""] call Serp_unitprocessor;";
+						description="Американский Джентльмен";
+						isPlayable=1;
+					};
+					id=1;
+					type="mkk_Survivor_B";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10886.583,8.0001574,11702.333};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""BLUEFOR"",""american""] call Serp_unitprocessor;";
+						description="Американский Джентльмен";
+						isPlayable=1;
+					};
+					id=2;
+					type="mkk_Survivor_B";
+					atlOffset=9.1552734e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10886.583,8.0001574,11699.833};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""BLUEFOR"",""american""] call Serp_unitprocessor;";
+						description="Американский Джентльмен";
+						isPlayable=1;
+					};
+					id=3;
+					type="mkk_Survivor_B";
+					atlOffset=9.1552734e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10886.583,8.0001574,11697.333};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""BLUEFOR"",""american""] call Serp_unitprocessor;";
+						description="Американский Джентльмен";
+						isPlayable=1;
+					};
+					id=4;
+					type="mkk_Survivor_B";
+					atlOffset=9.1552734e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10886.583,8.0001574,11694.833};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""BLUEFOR"",""american""] call Serp_unitprocessor;";
+						description="Американский Джентльмен";
+						isPlayable=1;
+					};
+					id=5;
+					type="mkk_Survivor_B";
+					atlOffset=9.1552734e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10886.583,8.0001574,11692.333};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""BLUEFOR"",""american""] call Serp_unitprocessor;";
+						description="Американский Джентльмен";
+						isPlayable=1;
+					};
+					id=6;
+					type="mkk_Survivor_B";
+					atlOffset=9.1552734e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10886.583,8.0001574,11689.833};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""BLUEFOR"",""american""] call Serp_unitprocessor;";
+						description="Американский Джентльмен";
+						isPlayable=1;
+					};
+					id=7;
+					type="mkk_Survivor_B";
+					atlOffset=9.1552734e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10886.583,8.0001574,11687.333};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""BLUEFOR"",""american""] call Serp_unitprocessor;";
+						description="Американский Джентльмен";
+						isPlayable=1;
+					};
+					id=8;
+					type="mkk_Survivor_B";
+					atlOffset=9.1552734e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10886.583,8.0005827,11684.833};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""BLUEFOR"",""american""] call Serp_unitprocessor;";
+						description="Американский Джентльмен";
+						isPlayable=1;
+					};
+					id=9;
+					type="mkk_Survivor_B";
+					atlOffset=0.00051689148;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10886.583,8.0005827,11682.333};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""BLUEFOR"",""american""] call Serp_unitprocessor;";
+						description="Американский Джентльмен";
+						isPlayable=1;
+					};
+					id=10;
+					type="mkk_Survivor_B";
+					atlOffset=0.00051689148;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=0;
+		};
+		class Item1
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10902.479,8.2179718,12054.905};
+						angles[]={6.2802529,3.1495688,6.2822256};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""OPFOR"",""sov""] call Serp_unitprocessor;";
+						description="Советский Джентльмен";
+						isPlayable=1;
+					};
+					id=16;
+					type="mkk_Survivor_O";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10902.497,8.2195816,12057.314};
+						angles[]={6.2802482,3.1495609,6.2822328};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""OPFOR"",""sov""] call Serp_unitprocessor;";
+						description="Советский Джентльмен";
+						isPlayable=1;
+					};
+					id=17;
+					type="mkk_Survivor_O";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10902.517,8.2012453,12059.813};
+						angles[]={6.2802482,3.1495609,6.2822328};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""OPFOR"",""sov""] call Serp_unitprocessor;";
+						description="Советский Джентльмен";
+						isPlayable=1;
+					};
+					id=18;
+					type="mkk_Survivor_O";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10902.537,8.2008162,12062.313};
+						angles[]={6.2831545,3.1495609,6.2792797};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""OPFOR"",""sov""] call Serp_unitprocessor;";
+						description="Советский Джентльмен";
+						isPlayable=1;
+					};
+					id=19;
+					type="mkk_Survivor_O";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10902.557,8.2023611,12064.813};
+						angles[]={6.2782717,3.1495609,6.2793183};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""OPFOR"",""sov""] call Serp_unitprocessor;";
+						description="Советский Джентльмен";
+						isPlayable=1;
+					};
+					id=20;
+					type="mkk_Survivor_O";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10902.576,8.2039061,12067.313};
+						angles[]={6.2782717,3.1495609,6.2793183};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""OPFOR"",""sov""] call Serp_unitprocessor;";
+						description="Советский Джентльмен";
+						isPlayable=1;
+					};
+					id=21;
+					type="mkk_Survivor_O";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10902.596,8.187007,12069.813};
+						angles[]={6.2782717,3.1495609,6.2793183};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""OPFOR"",""sov""] call Serp_unitprocessor;";
+						description="Советский Джентльмен";
+						isPlayable=1;
+					};
+					id=22;
+					type="mkk_Survivor_O";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10902.616,8.1865587,12072.313};
+						angles[]={6.2831154,3.1495612,6.2743969};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""OPFOR"",""sov""] call Serp_unitprocessor;";
+						description="Советский Джентльмен";
+						isPlayable=1;
+					};
+					id=23;
+					type="mkk_Survivor_O";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10902.636,8.1879511,12074.813};
+						angles[]={6.2713971,3.1495607,6.2744899};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""OPFOR"",""sov""] call Serp_unitprocessor;";
+						description="Советский Джентльмен";
+						isPlayable=1;
+					};
+					id=24;
+					type="mkk_Survivor_O";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10902.656,8.1894302,12077.313};
+						angles[]={6.2713971,3.1495607,6.2744899};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="[this,""OPFOR"",""sov""] call Serp_unitprocessor;";
+						description="Советский Джентльмен";
+						isPlayable=1;
+					};
+					id=25;
+					type="mkk_Survivor_O";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=15;
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10897.24,10.550315,11897.375};
+				angles[]={6.2822089,2.7646258,5.6018143};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=74;
+			type="Land_wagon_box";
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10877.843,8.9839916,11718.069};
+				angles[]={6.2812324,1.8376652,6.2275786};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=75;
+			type="Land_Wreck_BMP2_F";
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10884.021,8.8598394,11716.538};
+				angles[]={0,4.660255,6.2812324};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=76;
+			type="Land_Wreck_BMP2_F";
+			atlOffset=9.5367432e-007;
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10891.211,8.8481617,11718.105};
+				angles[]={0,1.4424906,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=77;
+			type="Land_Wreck_BMP2_F";
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10901.188,8.8481617,11717.875};
+				angles[]={0,1.7050216,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=78;
+			type="Land_Wreck_BMP2_F";
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10907.425,8.8481617,11716.604};
+				angles[]={0,4.4853811,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=79;
+			type="Land_Wreck_BMP2_F";
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10914.104,8.8725605,11718.124};
+				angles[]={6.2812324,4.4853811,0.006835951};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=80;
+			type="Land_Wreck_BMP2_F";
+			atlOffset=7.6293945e-006;
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10878.573,8.9169569,12051.103};
+				angles[]={0.0058492022,1.8376652,6.2305002};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=81;
+			type="Land_Wreck_BMP2_F";
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10884.751,8.8598385,12049.571};
+				angles[]={0,4.660255,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=82;
+			type="Land_Wreck_BMP2_F";
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10891.941,8.8481617,12051.139};
+				angles[]={0,1.4424906,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=83;
+			type="Land_Wreck_BMP2_F";
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10901.918,9.016716,12050.908};
+				angles[]={0,1.7050216,0.087666735};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=84;
+			type="Land_Wreck_BMP2_F";
+			atlOffset=9.5367432e-007;
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10908.155,9.5670929,12049.638};
+				angles[]={0.0058593834,4.4853811,0.087666735};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=85;
+			type="Land_Wreck_BMP2_F";
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10914.835,10.481868,12051.157};
+				angles[]={0.0087890904,4.4853811,0.15690489};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=86;
+			type="Land_Wreck_BMP2_F";
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10897.052,10.50628,11728.278};
+				angles[]={6.2822089,2.7646258,5.6018143};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=87;
+			type="Land_wagon_box";
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10898.089,10.350431,12040.127};
+				angles[]={6.2828403,3.2996383,6.008266};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=88;
+			type="Land_wagon_box";
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10889.369,9.186141,12016.306};
+				angles[]={0,3.9619489,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=89;
+			type="Land_Wreck_Ural_F";
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10901.288,9.380125,11990.42};
+				angles[]={0,4.1019964,0.082818657};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=90;
+			type="Land_Wreck_Truck_F";
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10890.213,8.8366928,11771.393};
+				angles[]={0,2.3269231,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=91;
+			type="Land_Wreck_HMMWV_F";
+			atlOffset=-4.7683716e-007;
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10902.158,9.3359022,11779.736};
+				angles[]={6.2822089,3.7829022,0.0009765625};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=92;
+			type="Land_V3S_wreck_F";
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10888.294,8.018611,11815.515};
+				angles[]={0,1.076653,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=93;
+			type="Land_UH1H_Wreck_F";
+		};
+		class Item22
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10900.957,8.848917,11838.093};
+				angles[]={0,0,0.012695398};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=94;
+			type="Land_Wreck_HMMWV_F";
+			atlOffset=7.4386597e-005;
+		};
+		class Item23
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10886.801,9.0177946,11856.367};
+				angles[]={0,5.7747526,6.2568264};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=95;
+			type="Land_Wreck_Offroad_F";
+		};
+		class Item24
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10888.704,9.1953144,11886.341};
+				angles[]={0,0.77042401,6.2656107};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=96;
+			type="Land_Wreck_Truck_dropside_F";
+		};
+		class Item25
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10905.338,9.0028496,11885.852};
+				angles[]={6.271472,5.0770845,0.060473341};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=97;
+			type="Land_Wreck_Car3_F";
+			atlOffset=0.0013313293;
+		};
+		class Item26
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10886.691,9.8952312,11924.333};
+				angles[]={0,2.6437461,6.2734199};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=98;
+			type="Land_wagon_box";
+		};
+		class Item27
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10898.853,9.9918137,11949.753};
+				angles[]={6.2699208,0.31087345,5.9072618};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=99;
+			type="Land_wagon_box";
+		};
+		class Item28
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10885.593,9.8629255,11968.412};
+				angles[]={0,5.8964157,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=100;
+			type="Land_wagon_box";
+		};
+		class Item29
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10905.384,9.7152576,11968.445};
+				angles[]={0.0009765625,2.1820474,0.080878675};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=101;
+			type="Land_Wreck_Truck_F";
+			atlOffset=0.004070282;
+		};
+		class Item30
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10903.666,9.8446693,11925.962};
+				angles[]={0,0.23909581,0.079908609};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=102;
+			type="Land_Bulldozer_01_abandoned_F";
+		};
+		class Item31
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10903.376,12.147614,11874.533};
+				angles[]={0,3.8928344,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=103;
+			type="Land_HaulTruck_01_abandoned_F";
+			atlOffset=0.66805267;
+		};
+		class Item32
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10891.255,16.840939,11979.458};
+				angles[]={0,1.6713545,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=104;
+			type="Land_MiningShovel_01_abandoned_F";
+			atlOffset=9.5367432e-007;
+		};
+		class Item33
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10881.43,10.106119,11986.499};
+				angles[]={5.9615598,2.864325,0.89660615};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=106;
+			type="Land_PowerGenerator_wreck_F";
+		};
+		class Item34
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10888.658,9.8800011,11938.199};
+				angles[]={0,0,6.275373};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=107;
+			type="Land_Wreck_Hunter_F";
+		};
+		class Item35
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10900.851,11.846346,11914.522};
+				angles[]={0,2.2745204,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=109;
+			type="Land_Excavator_01_abandoned_F";
+			atlOffset=0.63416862;
+		};
+		class Item36
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10891.319,9.274128,11845.625};
+				angles[]={0,4.7746134,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=111;
+			type="Land_RailwayCar_01_tank_F";
+		};
+		class Item37
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10895.182,10.006331,11857.44};
+				angles[]={6.2826972,5.8333755,0.15172398};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=112;
+			type="Land_Bulldozer_01_wreck_F";
+		};
+		class Item38
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10889.276,9.173254,11950.994};
+				angles[]={0,3.7553163,6.2822089};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=113;
+			type="Land_Wreck_Truck_dropside_F";
+		};
+		class Item39
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10881.045,9.059907,11878.517};
+				angles[]={0.0039062523,0,6.2597528};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=114;
+			type="Land_Wreck_CarDismantled_F";
+			atlOffset=0.00026798248;
+		};
+		class Item40
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10909.612,10.182435,12071.995};
+				angles[]={0.0078125196,3.843519,0.063392267};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="LOCKED";
+			};
+			id=121;
+			type="RDS_Lada_Civ_01";
+			atlOffset=-0.0045394897;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item41
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10909.044,10.113911,12076.726};
+				angles[]={0.0078125196,3.827492,0.063392267};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="LOCKED";
+			};
+			id=122;
+			type="RDS_Lada_Civ_01";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item42
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10910.13,10.260448,12067.126};
+				angles[]={0.0078190751,3.9775703,0.14735815};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="LOCKED";
+			};
+			id=123;
+			type="RDS_Gaz24_Civ_03";
+			atlOffset=-0.0044317245;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item43
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10882.036,9.3624144,11709.862};
+				angles[]={0,0.87705553,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="LOCKED";
+			};
+			id=131;
+			type="RDS_Golf4_Civ_01";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item44
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10883.045,9.3624144,11707.059};
+				angles[]={0,0.65611047,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="LOCKED";
+			};
+			id=132;
+			type="RDS_Golf4_Civ_01";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item45
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10880.229,9.3645382,11712.165};
+				angles[]={6.2812324,0.96879214,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="LOCKED";
+			};
+			id=133;
+			type="RDS_Golf4_Civ_01";
+			atlOffset=-0.0021076202;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item46
+		{
+			dataType="Trigger";
+			position[]={10894.865,8.5573425,11711.194};
+			class Attributes
+			{
+				condition="call{(east countSide thislist > 0)}";
+				onActivation="call{[""Победа Советского Союза!"", EAST] call a3a_fnc_endMission;}";
+				sizeA=20;
+				sizeB=5;
+				sizeC=0;
+				activationBy="ANY";
+				isRectangle=1;
+				isServerOnly=1;
+				triggerInterval=1;
+			};
+			id=134;
+			type="EmptyDetector";
+		};
+		class Item47
+		{
+			dataType="Trigger";
+			position[]={10896.71,8.632761,12057.362};
+			class Attributes
+			{
+				condition="call{(west countSide thislist > 0)}";
+				onActivation="call{[""Победа США!"", WEST] call a3a_fnc_endMission;}";
+				sizeA=20;
+				sizeB=5;
+				sizeC=0;
+				activationBy="ANY";
+				isRectangle=1;
+				isServerOnly=1;
+				triggerInterval=1;
+			};
+			id=135;
+			type="EmptyDetector";
+		};
+		class Item48
+		{
+			dataType="Marker";
+			position[]={10895.861,7.9990001,11714.888};
+			name="usa";
+			type="mil_start";
+			colorName="ColorBlue";
+			id=136;
+			atlOffset=0.00037336349;
+		};
+		class Item49
+		{
+			dataType="Marker";
+			position[]={10896.795,7.9990001,12052.717};
+			name="sov";
+			type="mil_start";
+			colorName="ColorRed";
+			id=137;
+			atlOffset=0.00037336349;
+		};
+	};
+};

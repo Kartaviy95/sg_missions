@@ -1,0 +1,1 @@
+_this addItemcargoglobal ["ace_mag_PG9V", 10];

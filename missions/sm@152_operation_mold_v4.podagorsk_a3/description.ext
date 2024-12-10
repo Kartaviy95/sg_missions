@@ -1,0 +1,54 @@
+﻿author = "tElore"; // Автор миссии (учитывайте, что в английской версии пишет "by")
+onLoadName = "Operation MOLD";
+onLoadMission = "Этот квас не про вас."; // Описание миссии на загрузочном экране
+loadScreen = "Images\load.jpg"; // Путь до изображения, показываемого на загрузочном экране
+
+// отключает консоль на миссии
+enableDebugConsole = 0;
+
+// нужно для настройки Atrium
+#include "Atrium\Setup\a3a_header.hpp"
+#include "Atrium\Setup\a3a_parameters.hpp"
+
+class A3A_MissionParams {
+	#include "mission_parameters.hpp"
+};
+
+class CfgFunctions {
+	// нужно для настройки Atrium
+	#include "Atrium\Setup\a3a_functions.hpp"
+
+	// нужно для работы скрипта на зоны
+	#include "Scripts\CapturePoint\Setup\functions.hpp"
+
+    #include "Scripts\functions.hpp" // My precompiled functions
+};
+
+// нужно для работы скрипта на зоны
+#include "Scripts\CapturePoint\Setup\notifications.hpp"
+
+class CfgSounds
+{
+	sounds[] = {};
+	class CustomAlarmSound
+	{
+		name = "CustomAlarmSound";
+		sound[] = {Sounds\alarm.ogg, 2, 1, 500};
+		titles[] = {0, ""};	
+	};
+	
+	class DoneSound
+	{
+		name = "DoneSound"; // Name for mission editor
+		sound[] = {sound\done.ogg, 2, 1, 450};
+		titles[] = {0, ""};	
+	};
+	
+		class noRed
+	{
+		name = "noRed"; // Name for mission editor
+		sound[] = {sound\noredsound.ogg, 2, 1, 500};
+		titles[] = {0, ""};	
+	};
+
+};

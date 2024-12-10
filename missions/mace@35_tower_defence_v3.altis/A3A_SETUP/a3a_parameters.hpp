@@ -1,0 +1,62 @@
+class Params {
+	class a3a_params_startTime {
+		title = "$STR_A3RU_startTime";
+		values[] = {0};
+		texts[] = {$STR_A3RU_default};
+		default = 0;
+	};
+	class a3a_params_startFog {
+		title = "$STR_A3RU_startFog";
+		values[] = {0};
+		texts[] = {$STR_A3RU_Default};
+		default = 0;
+	};
+	class a3a_params_preTime {
+		title = "$STR_A3RU_preTime";
+		values[] = {60, 300, 420, 600, 900, 1200, 1500, 1800};
+		texts[] = {"1m", "5m", "7m", "10m", "15m", "20m", "25m", "30m"};
+		default = 300; // дефолтная длительность фриза; 900 для СГ, 300 для Мэйса;
+	};
+	class a3a_params_slotReservation {
+		title = "$STR_A3RU_slotReservation";
+		values[] = {0,1};
+		texts[] = {$STR_A3RU_off,$STR_A3RU_on};
+		default = 0;
+	};
+	class a3a_params_spectatorSides {
+		title = "$STR_A3RU_spectatorSides";
+		values[] = {0,1};
+		texts[] = {$STR_A3RU_spectatorOwnSide, $STR_A3RU_spectatorAllSides};
+		default = 1;
+	};
+	class a3a_params_externalAddonsInit {
+		title = "$STR_A3RU_externalAddonsInit";
+		values[] = {0,1};
+		texts[] = {$STR_A3RU_off, $STR_A3RU_on};
+		default = 1;
+	};
+	class a3a_params_UniformBlue {
+		title = "$STR_Blue_uniform";
+		values[] = {0,1,2,3};
+		texts[] = {$STR_Random, $STR_USMC, $STR_CDF, $STR_BAF};
+		default = 0;
+	};
+	class a3a_params_UniformRed {
+		title = "$STR_Red_uniform";
+		values[] = {0,1,2,3};
+		texts[] = {$STR_Random, $STR_MSV, $STR_CHDKZ, $STR_PMC};
+		default = 0;
+	};
+	class a3a_params_WeaponsBlue {
+		title = "$STR_Blue_weapons";
+		values[] = {0,1,2,3};
+		texts[] = {$STR_Random, $STR_M16A4, $STR_L85, $STR_ZASTAVA};
+		default = 0;
+	};
+	class a3a_params_WeaponsRed {
+		title = "$STR_Red_weapons";
+		values[] = {0,1,2,3};
+		texts[] = {$STR_Random, $STR_AK12, $STR_AK103, $STR_AKM};
+		default = 0;
+	};
+};

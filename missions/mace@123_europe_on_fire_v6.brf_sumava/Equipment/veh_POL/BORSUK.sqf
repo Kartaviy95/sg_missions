@@ -1,0 +1,22 @@
+﻿_veh = _this select 0;
+
+_veh addWeaponcargoglobal ["rhs_weap_M136", 2];
+_veh addItemCargoGlobal ["rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull",20];
+_veh addItemCargoGlobal ["rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull_Tracer_Red",10];
+_veh addItemCargoGlobal ["rhs_100Rnd_762x54mmR_7N13",5];
+_veh addItemCargoGlobal ["vtn_pg7v",3];
+_veh addItemCargoGlobal ["vtn_type691f",3];
+_veh addItemCargoGlobal ["rhs_mag_M441_HE",15];
+_veh addItemcargoglobal ["rhssaf_mag_br_m84",20];
+_veh addItemcargoglobal ["rhssaf_mag_brd_m83_blue",20];
+_veh addItemcargoglobal ["ACE_quikclot", 20]; 
+_veh addItemcargoglobal ["ACE_elasticBandage", 20]; 
+_veh addItemcargoglobal ["ACE_fieldDressing", 20]; 
+_veh addItemcargoglobal ["ACE_epinephrine", 20];
+_veh addItemcargoglobal ["ACE_packingBandage", 20];
+_veh addItemcargoglobal ["ACE_morphine", 10];
+_veh addItemcargoglobal ["ACE_tourniquet", 10];
+_veh addItemCargoGlobal ["ACE_rope6",2];
+_veh addItemCargoGlobal ["ACE_rope12",2];
+_veh addItemCargoGlobal ["rhssaf_bandana_md2camo",2];
+_veh addItemCargoGlobal ["ToolKit",1];

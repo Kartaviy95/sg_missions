@@ -1,0 +1,1 @@
+   [] spawn { sleep 0.2; setAperture 4.3 };

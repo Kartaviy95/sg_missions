@@ -1,0 +1,50 @@
+// Written by Blender
+enableDebugConsole = 0;
+
+// Disposable wrecks and corpses settings
+// BIKI: https://community.bistudio.com/wiki/Description.ext#corpseLimit
+corpseLimit = 300;
+corpseRemovalMaxTime = 10000;
+wreckLimit = 300;
+wreckRemovalMaxTime = 10000;
+
+// Extended flight model
+// 0 - Player chosen, 1 - Force Enable, 2 - Force Disable
+// BIKI: https://community.bistudio.com/wiki/Description.ext#forceRotorLibSimulation
+forceRotorLibSimulation = 0;
+
+#include "A3A_SETUP\a3a_header.hpp"
+#include "mission_description.hpp"
+#include "A3A_SETUP\a3a_parameters.hpp"
+
+class A3A_MissionParams {
+	#include "mission_parameters.hpp"
+};
+
+class CfgFunctions
+{
+    class mis
+    {
+        class Main
+        {
+            file="mis_funcs";
+            class preinit
+            {
+                preInit=1;
+                postInit=0;
+            };
+
+        };
+    };
+};
+class CfgSounds 
+{
+	sounds[] = {}; 
+	class ddr // This (sound01) is the classname you will use to refer to the sound in your code.
+	{
+		name = "ddr"; // This line is only needed if you want to be able to select the sound in the Trigger effects drop-down menus for sound. Call it whatever you want otherwise remove the line.
+		sound[] = {"ddr.ogg", 0.9, 1}; // This is the path to the audio file in your mission folder. The first 1 is volume. The second 1 is speed of playback.
+		titles[] = {};
+	};
+};
+

@@ -1,0 +1,31 @@
+﻿author = "tElore"; // Автор миссии (учитывайте, что в английской версии пишет "by")
+onLoadName = "Fallingbostel";
+onLoadMission = "Товарищ полковник, а кто сильнее — вы или супермэн?"; // Описание миссии на загрузочном экране
+loadScreen = "Images\load.jpg"; // Путь до изображения, показываемого на загрузочном экране
+
+corpseLimit = 300;
+corpseRemovalMaxTime = 10000;
+wreckLimit = 300;
+wreckRemovalMaxTime = 10000;
+
+// нужно для настройки Atrium
+#include "Atrium\Setup\a3a_header.hpp"
+#include "Atrium\Setup\a3a_parameters.hpp"
+
+class A3A_MissionParams {
+	#include "mission_parameters.hpp"
+};
+
+class CfgFunctions {
+	// нужно для настройки Atrium
+	#include "Atrium\Setup\a3a_functions.hpp"
+
+	// нужно для работы скрипта на зоны
+	#include "Scripts\CapturePoint\Setup\functions.hpp"
+	
+	#include "freestylesNuclearBlast\cfgFunctions.hpp"
+	
+};
+
+// нужно для работы скрипта на зоны
+#include "Scripts\CapturePoint\Setup\notifications.hpp"

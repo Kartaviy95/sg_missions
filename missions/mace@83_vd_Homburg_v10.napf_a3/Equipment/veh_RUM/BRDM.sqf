@@ -1,0 +1,12 @@
+_veh = _this select 0;
+_veh addItemcargoglobal ["rhssaf_30Rnd_762x39mm_M67", 10]; 
+_veh addMagazinecargoglobal ["rhs_mag_f1", 4];  
+_veh addMagazinecargoglobal ["rhs_mag_m18_yellow", 6];
+_veh addItemCargoGlobal ["ACE_elasticBandage",12];
+_veh addItemCargoGlobal ["ACE_packingBandage",12];
+_veh addItemCargoGlobal ["ACE_quikclot",12];
+_veh addItemCargoGlobal ["ACE_epinephrine",4]; 
+_veh addItemCargoGlobal ["ACE_fieldDressing",12];
+_veh addItemCargoGlobal ["ACE_morphine",4];
+_veh addItemCargoGlobal ["ToolKit",1];
+_veh addItemCargoGlobal ["ace_mag_9m113",5];

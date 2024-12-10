@@ -1,0 +1,1 @@
+execVM "defuse.sqf";

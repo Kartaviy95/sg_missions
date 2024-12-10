@@ -1,0 +1,9 @@
+﻿_this addItemCargoGlobal ["ACE_fieldDressing",50];
+_this addItemCargoGlobal ["ACE_elasticBandage",50];
+_this addItemCargoGlobal ["ACE_packingBandage",50];
+_this addItemCargoGlobal ["ACE_quikclot",50];
+_this addItemCargoGlobal ["ACE_morphine",25];
+_this addItemCargoGlobal ["ACE_epinephrine",25];
+_this addItemCargoGlobal ["ACE_personalAidKit",20];
+_this addItemCargoGlobal ["ACE_surgicalKit",2];
+_this additemcargoGlobal ["ACE_tourniquet",25];

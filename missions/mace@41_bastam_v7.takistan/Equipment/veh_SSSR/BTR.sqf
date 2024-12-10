@@ -1,0 +1,23 @@
+
+_veh addItemcargoglobal ["rhs_30Rnd_545x39_7N6_AK", 35]; 
+_veh addItemcargoglobal ["rhs_30Rnd_545x39_AK_green", 6]; 
+_veh addMagazinecargoglobal ["rhs_mag_rgd5", 10];  
+_veh addMagazinecargoglobal ["rhs_mag_rdg2_white", 16]; 
+
+_veh addWeaponcargoGlobal ["mkk_rhs_weap_rpg18", 2];
+_veh addMagazinecargoglobal ["SatchelCharge_Remote_Mag", 1];
+
+
+_veh addItemCargoGlobal ["vtn_pg7vl",3];
+_veh addItemCargoGlobal ["vtn_tbg7v",2];
+
+_veh addItemCargoGlobal ["ACE_elasticBandage",24];
+_veh addItemCargoGlobal ["ACE_packingBandage",24];
+_veh addItemCargoGlobal ["ACE_quikclot",24];
+_veh addItemCargoGlobal ["ACE_epinephrine",12]; 
+_veh addItemCargoGlobal ["ACE_fieldDressing",24];
+_veh addItemcargoglobal ["ACE_tourniquet", 12];
+_veh addItemCargoGlobal ["ACE_morphine",12];
+
+_veh addItemCargoGlobal ["ToolKit",1];
+_veh addItemCargoGlobal ["rhs_ssh68_2",2];

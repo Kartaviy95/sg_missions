@@ -1,0 +1,20 @@
+﻿_veh = _this select 0;
+
+_veh addWeaponcargoglobal ["rhs_weap_rpg26", 1];
+_veh addWeaponcargoglobal ["rhs_weap_rshg2", 1];
+_veh addItemCargoGlobal ["rhs_mag_rdg2_black",16];
+_veh addItemCargoGlobal ["rhs_mag_f1",16];
+_veh addItemCargoGlobal ["rhs_VOG25",20];
+_veh addItemCargoGlobal ["rhs_30Rnd_545x39_7n10_AK",30];
+_veh addItemCargoGlobal ["rhs_30Rnd_545x39_AK_green",10];
+_veh addItemCargoGlobal ["rhs_10Rnd_762x54mmR_7N14",10];
+_veh addItemCargoGlobal ["rhs_100Rnd_762x54mmR_7N13",10];
+_veh addItemCargoGlobal ["vtn_pg7vl", 3];
+_veh addItemCargoGlobal ["vtn_og7v", 3];
+_veh addItemcargoglobal ["ACE_quikclot", 20]; 
+_veh addItemcargoglobal ["ACE_elasticBandage", 20]; 
+_veh addItemcargoglobal ["ACE_fieldDressing", 20]; 
+_veh addItemcargoglobal ["ACE_epinephrine", 20];
+_veh addItemcargoglobal ["ACE_packingBandage", 20];
+_veh addItemcargoglobal ["ACE_morphine", 20];
+_veh addItemcargoglobal ["ACE_tourniquet", 10];

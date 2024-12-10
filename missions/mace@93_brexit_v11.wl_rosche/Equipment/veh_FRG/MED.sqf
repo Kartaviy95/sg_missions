@@ -1,0 +1,17 @@
+_veh = _this select 0;
+_veh addItemCargoGlobal ["ACE_fieldDressing",50];
+_veh addItemCargoGlobal ["ACE_packingBandage",45];
+_veh addItemCargoGlobal ["ACE_elasticBandage",40];
+_veh addItemCargoGlobal ["ACE_quikclot",40];
+_veh addItemCargoGlobal ["ACE_morphine",40];
+_veh addItemCargoGlobal ["ACE_epinephrine",15];
+_veh addItemCargoGlobal ["ACE_bloodIV_500",20];
+_veh addItemCargoGlobal ["ACE_plasmaIV_250",8];
+_veh addItemCargoGlobal ["ACE_salineIV_250",8];
+_veh addItemCargoGlobal ["ACE_tourniquet",8];
+_veh addItemCargoGlobal ["ACE_personalAidKit",20];
+_veh addItemCargoGlobal ["ACE_surgicalKit",4];
+_veh addItemCargoGlobal ["BWA3_DM51A1",6];
+_veh addItemCargoGlobal ["BWA3_DM25",6];
+_veh addItemCargoGlobal ["rhssaf_30rnd_556x45_EPR_G36",10];
+_veh addItemCargoGlobal ["rhssaf_30rnd_556x45_Tracers_G36",8];

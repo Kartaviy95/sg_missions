@@ -1,0 +1,26 @@
+_veh = _this select 0;
+
+_veh addItemcargoglobal ["ACE_morphine", 20]; 
+_veh addItemcargoglobal ["ACE_fieldDressing", 30]; 
+_veh addItemCargoGlobal ["ACE_elasticBandage", 30];
+_veh addItemCargoGlobal ["ACE_packingBandage", 30];
+_veh addItemCargoGlobal ["ACE_quikclot",30];
+_veh addItemCargoGlobal ["ACE_bloodIV_500", 20];
+_veh addItemCargoGlobal ["ACE_salineIV_500", 20];
+_veh addItemCargoGlobal ["ACE_personalAidKit", 10];
+_veh addItemCargoGlobal ["ACE_epinephrine",20];
+_veh addItemCargoGlobal ["ACE_tourniquet", 20];
+_veh addItemCargoGlobal ["ACE_surgicalKit", 1];
+_veh addItemcargoGlobal ["rhssaf_30rnd_556x45_EPR_G36",25];
+_veh addItemcargoGlobal ["rhssaf_30rnd_556x45_Tracers_G36",15];
+_veh addItemcargoGlobal ["rhssaf_100rnd_556x45_EPR_G36",10];
+_veh addItemcargoGlobal ["rhs_mag_M441_HE",8];
+_veh addItemcargoGlobal ["rhs_mag_m67",15];
+_veh addItemcargoGlobal ["rhs_mag_an_m8hc",15];
+_veh addItemcargoGlobal ["rhs_weap_m72a7",1];
+_veh addItemcargoGlobal ["rhsusf_5Rnd_762x51_AICS_m993_Mag",6];
+_veh addItemcargoGlobal ["rhsusf_5Rnd_762x51_AICS_m62_Mag",3];
+_veh addItemcargoGlobal ["hlc_30Rnd_9x19_B_MP5",4];
+_veh addBackpackCargoGlobal ["B_Kitbag_rgr",1];
+_veh addItemCargoGlobal ["DemoCharge_Remote_Mag",5];
+_veh addItemCargoGlobal ["rhs_mag_100rnd_127x99_mag",8];

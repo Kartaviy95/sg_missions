@@ -1,0 +1,21 @@
+﻿_this addItemcargoglobal ["rhs_30Rnd_762x39mm_tracer", 20]; 
+_this addItemcargoglobal ["rhs_30Rnd_762x39mm_89", 25];
+_this addItemcargoglobal ["rhs_100Rnd_762x54mmR", 10];
+_this addItemcargoglobal ["rhsgref_10Rnd_792x57_m76", 15];  
+_this addBackpackCargoGlobal ["rhs_r148",1];
+_this addItemCargoGlobal ["mkk_rhs_weap_rpg18",2];
+_this addItemcargoGlobal ["ACE_EarPlugs", 2];
+_this addItemcargoglobal ["rhs_mag_rgd5", 15];
+_this addItemcargoglobal ["rhs_VOG25", 15];    
+_this addItemcargoglobal ["rhs_mag_rdg2_white", 10];
+_this addItemcargoglobal ["ACE_morphine", 25]; 
+_this addItemcargoglobal ["ACE_fieldDressing", 25]; 
+_this addItemCargoGlobal ["ACE_elasticBandage",25];
+_this addItemCargoGlobal ["ACE_packingBandage",25];
+_this addItemCargoGlobal ["ACE_quikclot",25];
+_this addItemCargoGlobal ["ACE_epinephrine",25];
+_this addBackpackCargoGlobal ["rhs_sidor",7];
+_this addItemCargoGlobal ["ACE_rope6",2];
+_this addItemCargoGlobal ["ACE_rope12",2];
+
+_this addItemCargoGlobal ["ace_mag_VOG30_30",4];

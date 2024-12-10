@@ -1,0 +1,35 @@
+﻿
+// SolidGames
+
+_unit addBackpack "B_Carryall_Base";
+
+// Weapons with attachments:
+
+_unit addItem "rhs_30Rnd_545x39_7N10_AK";
+_unit addWeapon "rhs_weap_ak74m";
+_unit addPrimaryWeaponItem "rhs_acc_dtk";
+
+_unit addWeapon "rhs_tr8_periscope";
+
+removeBackpack _unit;
+
+
+// Uniform with items:
+_unit forceAddUniform "rhs_uniform_flora";
+_unit addItemToUniform 'ACE_Flashlight_XL50';
+
+// Vest with items:
+_unit addVest "rhs_6b23_digi_6sh92_headset_mapcase";
+for '_i' from 1 to 4 do { _unit addItemToVest 'rhs_30Rnd_545x39_7N10_AK';};
+_unit addItemToVest 'rhs_30Rnd_545x39_AK_green';
+for '_i' from 1 to 2 do { _unit addItemToVest 'rhs_mag_rgo';};
+for '_i' from 1 to 2 do { _unit addItemToVest 'rhs_mag_rdg2_white';};
+
+// Backpack with items:
+_unit addBackpack "tf_bussole";
+_unit addHeadgear "rhs_fieldcap_digi";
+
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemRadio";
+_unit linkItem "ItemGPS";

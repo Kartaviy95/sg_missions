@@ -1,0 +1,46 @@
+﻿author = "tElore"; // Автор миссии (учитывайте, что в английской версии пишет "by")
+onLoadName = "Это конец";
+onLoadMission = "Наблюдаю вспышку! #SolidMace"; // Описание миссии на загрузочном экране
+loadScreen = "Images\end.jpg"; // Путь до изображения, показываемого на загрузочном экране
+
+// отключает консоль на миссии
+enableDebugConsole = 0;
+
+// нужно для настройки Atrium
+#include "Atrium\Setup\a3a_header.hpp"
+#include "Atrium\Setup\a3a_parameters.hpp"
+
+class A3A_MissionParams {
+	#include "mission_parameters.hpp"
+};
+
+class CfgFunctions {
+	// нужно для настройки Atrium
+	#include "Atrium\Setup\a3a_functions.hpp"
+
+	// нужно для работы скрипта на зоны
+	#include "Scripts\CapturePoint\Setup\functions.hpp"
+	
+	#include "freestylesNuclearBlast\cfgFunctions.hpp"
+};
+
+// нужно для работы скрипта на зоны
+#include "Scripts\CapturePoint\Setup\notifications.hpp"
+
+
+class CfgSounds
+{	
+	class nukealarm
+	{
+		name = "nukealarm";
+		sound[] = { "\sound\alarm.ogg",  db+30, 1};
+		titles[] = {};
+	};
+	
+	class shephard
+	{
+		name = "shephard";
+		sound[] = { "\sound\shephard.ogg", db+10, 1};
+		titles[] = {};
+	};
+};

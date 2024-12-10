@@ -1,0 +1,25 @@
+﻿_veh = _this select 0;
+
+_veh addWeaponcargoglobal ["mkk_rhs_weap_rpg18",2];
+_veh addItemcargoglobal ["rhs_mag_30Rnd_556x45_M855A1_Stanag",10];
+_veh addItemcargoglobal ["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",5];
+_veh addItemcargoglobal ["rhssaf_30rnd_556x45_EPR_G36",10];
+_veh addItemcargoglobal ["rhssaf_30rnd_556x45_Tracers_G36",5];
+_veh addItemcargoglobal ["rhs_30Rnd_762x39mm_89",10];
+_veh addItemcargoglobal ["rhs_30Rnd_762x39mm_tracer",5];
+_veh addItemcargoglobal ["rhs_75Rnd_762x39mm_89",5];
+_veh addItemcargoglobal ["rhs_75Rnd_762x39mm_tracer",2];
+_veh addItemcargoglobal ["rhs_rpg7_PG7VM_mag",3];
+_veh addItemcargoglobal ["rhs_rpg7_type69_airburst_mag",3];
+_veh addItemcargoglobal ["mkk_hlc_20rnd_762x51_b_G3",5];
+_veh addItemcargoglobal ["mkk_20rnd_762x51_M118_G3",2];
+_veh addItemcargoglobal ["rhs_grenade_khattabka_vog17_mag",20];
+_veh addItemcargoglobal ["rhs_mag_rdg2_black",20];
+_veh addItemcargoglobal ["rhs_10Rnd_762x54mmR_7N14",10];
+_veh addItemcargoglobal ["ACE_quikclot", 20]; 
+_veh addItemcargoglobal ["ACE_elasticBandage", 20]; 
+_veh addItemcargoglobal ["ACE_fieldDressing", 20]; 
+_veh addItemcargoglobal ["ACE_epinephrine", 20];
+_veh addItemcargoglobal ["ACE_packingBandage", 20];
+_veh addItemcargoglobal ["ACE_morphine", 10];
+_veh addItemcargoglobal ["ACE_tourniquet", 10];
