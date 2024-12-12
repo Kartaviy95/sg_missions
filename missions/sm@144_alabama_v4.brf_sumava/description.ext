@@ -4,14 +4,14 @@ onLoadMission = "Sweet home Alabama"; // Описание миссии на за
 loadScreen = "Images\alabama.jpg"; // Путь до изображения, показываемого на загрузочном экране
 
 // отключает консоль на миссии
-enableDebugConsole = 0;
+
 
 // нужно для настройки Atrium
 #include "Atrium\Setup\a3a_header.hpp"
 #include "Atrium\Setup\a3a_parameters.hpp"
 
 class A3A_MissionParams {
-	#include "mission_parameters.hpp"
+	#include "mission_parameters.hpp";
 };
 
 class CfgFunctions {
@@ -32,12 +32,12 @@ class CfgSounds
 	{
 		name = "sirena"; // Name for mission editor
 		sound[] = {sound\sirena.ogg, 2, 1, 500};
-		titles[] = {0, ""};	
+		titles[] = {0, ""};
 	};
 	class alabama
 	{
 		name = "alabama"; // Name for mission editor
 		sound[] = {sound\alabama.ogg, 0.3, 1, 450};
-		titles[] = {0, ""};	
+		titles[] = {0, ""};
 	};
 };

@@ -4,14 +4,14 @@ onLoadMission = "Доставку заказывали? #SolidMace"; // Опис
 loadScreen = "Images\load.jpg"; // Путь до изображения, показываемого на загрузочном экране
 
 // отключает консоль на миссии
-enableDebugConsole = 0;
+
 
 // нужно для настройки Atrium
 #include "Atrium\Setup\a3a_header.hpp"
 #include "Atrium\Setup\a3a_parameters.hpp"
 
 class A3A_MissionParams {
-	#include "mission_parameters.hpp"
+	#include "mission_parameters.hpp";
 };
 #include "RLO\GUI.hpp"
 
@@ -21,7 +21,7 @@ class CfgFunctions {
 
 	// нужно для работы скрипта на зоны
 	#include "Scripts\CapturePoint\Setup\functions.hpp"
-	
+
 	#include "RLO\cfgFunctions.hpp"
 };
 
@@ -31,12 +31,12 @@ class CfgFunctions {
 class CfgSounds
 {
 	sounds[] = {};
-	
+
 	class track_2
 	{
 		name = "Композиция 2";
 		sound[] = { "sounds\track_2.ogg", 100 , 1 , 3000 };
 		titles[] = { 0, "" };
 	};
-	
+
 };

@@ -1,5 +1,5 @@
 // Written by Blender
-enableDebugConsole = 0;
+
 
 // Disposable wrecks and corpses settings
 // BIKI: https://community.bistudio.com/wiki/Description.ext#corpseLimit
@@ -13,12 +13,12 @@ wreckRemovalMaxTime = 10000;
 // BIKI: https://community.bistudio.com/wiki/Description.ext#forceRotorLibSimulation
 forceRotorLibSimulation = 0;
 
-#include "A3A_SETUP\a3a_header.hpp"
-#include "mission_description.hpp"
-#include "A3A_SETUP\a3a_parameters.hpp"
+#include "A3A_SETUP\a3a_header.hpp";
+#include "mission_description.hpp";
+#include "A3A_SETUP\a3a_parameters.hpp";
 
 class A3A_MissionParams {
-	#include "mission_parameters.hpp"
+	#include "mission_parameters.hpp";
 };
 
 class CfgFunctions
@@ -45,13 +45,13 @@ class CfgSounds
 	{
 		name = "erika"; // Name for mission editor
 		sound[] = {snd\erika.ogg, 1, 1, 200};
-		titles[] = {0, ""};	
+		titles[] = {0, ""};
 	};
 			class british
 	{
 		name = "british"; // Name for mission editor
 		sound[] = {snd\british.ogg, 1, 1, 200};
-		titles[] = {0, ""};	
+		titles[] = {0, ""};
 	};
-	
+
 };
