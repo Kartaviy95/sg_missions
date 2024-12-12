@@ -20,5 +20,4 @@ _unit addHeadgear "YuEShapka1Bl";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

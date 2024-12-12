@@ -26,5 +26,4 @@ _unit addHeadgear "YuEBandana_F_GBSHP2";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

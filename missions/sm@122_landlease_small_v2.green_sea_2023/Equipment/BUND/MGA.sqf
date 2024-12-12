@@ -33,5 +33,4 @@ _unit addGoggles "rhsusf_oakley_goggles_blk";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

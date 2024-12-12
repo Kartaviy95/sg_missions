@@ -21,7 +21,6 @@ _unit addHeadgear "rhsusf_ach_helmet_ocp";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 
 

@@ -13,4 +13,3 @@ _unit addPrimaryWeaponItem (random_545_scope select (floor (random (count random
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";

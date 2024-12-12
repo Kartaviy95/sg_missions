@@ -32,6 +32,5 @@ _unit addHeadgear "LOP_H_6B27M_ess_MTP";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

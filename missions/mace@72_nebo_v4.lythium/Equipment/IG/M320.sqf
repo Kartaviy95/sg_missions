@@ -36,6 +36,5 @@ _unit addHeadgear "H_Cap_blk";
 _unit addGoggles "rhsusf_shemagh_gogg_od";
 
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

@@ -13,7 +13,6 @@ _unit addPrimaryWeaponItem "BWA3_bipod_Harris_tan";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemGPS";
 
 for "_i" from 1 to 5 do {_unit addItemToVest "rhsusf_20Rnd_762x51_SR25_m993_Mag";};

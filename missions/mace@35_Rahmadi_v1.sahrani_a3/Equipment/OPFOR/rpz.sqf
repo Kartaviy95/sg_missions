@@ -26,5 +26,4 @@ _unit addGoggles "YuEBalaklava1bl";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

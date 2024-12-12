@@ -29,5 +29,4 @@ _unit addHeadgear "rhs_fieldcap_m88_ttsko_back";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

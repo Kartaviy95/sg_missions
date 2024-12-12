@@ -36,6 +36,5 @@ _unit addHeadgear "H_Cap_tan_specops_US";
 _unit addGoggles "rhsusf_shemagh2_tan";
 
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

@@ -29,4 +29,3 @@ if (_unit hasWeapon "rhs_weap_svdp") then
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";

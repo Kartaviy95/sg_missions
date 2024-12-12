@@ -32,5 +32,4 @@ _unit addHeadgear "H_Bandanna_sgg";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

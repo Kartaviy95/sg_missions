@@ -35,7 +35,6 @@ _unit addHeadgear "CUP_H_RUS_6B47_v2_GogglesClosed_Desert";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 

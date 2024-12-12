@@ -12,5 +12,4 @@ _unit addHeadgear "Beanie_Black";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

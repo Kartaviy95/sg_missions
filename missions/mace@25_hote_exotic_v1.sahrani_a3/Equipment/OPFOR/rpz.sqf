@@ -30,5 +30,4 @@ _unit addGoggles "mkk_HAMAS_balaclava";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

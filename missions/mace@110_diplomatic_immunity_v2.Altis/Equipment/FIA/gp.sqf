@@ -16,4 +16,3 @@ _unit addPrimaryWeaponItem "rhs_acc_dtk";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";

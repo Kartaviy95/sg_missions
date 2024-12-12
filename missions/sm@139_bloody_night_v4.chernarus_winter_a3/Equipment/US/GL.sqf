@@ -22,6 +22,5 @@ _unit addHeadgear "PBW_Helm4_tropen_BOD";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "rhsusf_ANPVS_14";

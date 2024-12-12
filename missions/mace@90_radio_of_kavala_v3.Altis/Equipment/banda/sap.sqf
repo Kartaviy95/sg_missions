@@ -25,6 +25,5 @@ _unit addHeadgear "H_Cap_oli_hs";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

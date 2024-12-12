@@ -28,5 +28,4 @@ _unit addHeadgear "tfa_booniehat_m81";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

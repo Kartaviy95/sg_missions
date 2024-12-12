@@ -34,5 +34,4 @@ for '_i' from 1 to 12 do { _unit addItemToBackpack  'rhs_VOG25';};
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

@@ -28,5 +28,4 @@ _unit addGoggles "TRYK_Beard_Gr4";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "tf_anprc148jem";

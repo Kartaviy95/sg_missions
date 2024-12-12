@@ -14,4 +14,3 @@ _unit addWeapon "Binocular";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";

@@ -25,5 +25,4 @@ _unit addHeadgear "usm_helmet_pasgt_w";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

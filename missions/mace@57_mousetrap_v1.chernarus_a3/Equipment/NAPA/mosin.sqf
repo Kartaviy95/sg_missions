@@ -11,4 +11,3 @@ _unit addWeapon "mkk_M9130PU";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";

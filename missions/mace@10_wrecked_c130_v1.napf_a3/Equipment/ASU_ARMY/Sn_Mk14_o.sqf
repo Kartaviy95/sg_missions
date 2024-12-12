@@ -26,6 +26,5 @@ _unit addHeadgear "rhs_Booniehat_ucp";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "tf_pnr1000a";
 _unit linkItem "ItemGPS";

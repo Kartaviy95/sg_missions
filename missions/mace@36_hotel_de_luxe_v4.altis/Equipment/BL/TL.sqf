@@ -35,6 +35,5 @@ _unit addHeadgear "rhsusf_mich_bare_norotos_alt";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

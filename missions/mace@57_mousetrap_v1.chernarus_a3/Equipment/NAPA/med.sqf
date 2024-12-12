@@ -25,4 +25,3 @@ _unit addWeapon "mkk_PPSh41_d";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";

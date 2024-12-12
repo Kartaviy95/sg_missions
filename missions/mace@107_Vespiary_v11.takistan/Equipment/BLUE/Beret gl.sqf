@@ -20,7 +20,6 @@ _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
 
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemGPS";
 
 for "_i" from 1 to 6 do {_unit addItemToVest "rhs_mag_M433_HEDP";};

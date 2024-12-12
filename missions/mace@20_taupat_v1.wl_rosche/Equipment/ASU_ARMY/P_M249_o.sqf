@@ -22,6 +22,5 @@ _unit addHeadgear "rhsusf_ach_helmet_ESS_ucp_alt";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "tf_pnr1000a";
 _unit linkItem "ItemGPS";

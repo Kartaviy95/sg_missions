@@ -24,6 +24,5 @@ _unit addHeadgear "rhsusf_ach_bare";
 _unit addGoggles "rhs_googles_black";
 
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

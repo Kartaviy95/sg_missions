@@ -27,6 +27,5 @@ for '_i' from 1 to 2 do { _unit addItemToBackpack 'SatchelCharge_Remote_Mag';};
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

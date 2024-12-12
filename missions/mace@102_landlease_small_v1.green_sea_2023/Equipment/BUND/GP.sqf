@@ -30,5 +30,4 @@ _unit addGoggles "PBW_Balaclava_schwarzR";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

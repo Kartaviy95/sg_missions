@@ -41,7 +41,6 @@ _unit linkItem "rhsusf_ANPVS_15_WP";
 _unit addItemToBackpack "rhsusf_acc_premier_anpvs27"; 
 _unit addItemToUniform "ACE_Kestrel4500";
 _unit addItemToUniform "ACE_RangeCard";
-_unit linkItem "tf_microdagr";
 
 for "_i" from 1 to 6 do {_unit addItemToVest "rhsusf_5Rnd_762x51_m118_special_Mag";};
 for "_i" from 1 to 2 do {_unit addItemToVest "rhsusf_5Rnd_762x51_m993_Mag";};

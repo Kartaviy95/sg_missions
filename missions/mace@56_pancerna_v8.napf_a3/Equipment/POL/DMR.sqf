@@ -35,6 +35,5 @@ _unit addHeadgear "rhssaf_helmet_m97_veil_md2camo";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

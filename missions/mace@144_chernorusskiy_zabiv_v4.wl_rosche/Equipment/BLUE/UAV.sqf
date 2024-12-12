@@ -27,6 +27,5 @@ _unit addHeadgear "LOP_H_Fieldcap_CDF";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "B_UavTerminal";

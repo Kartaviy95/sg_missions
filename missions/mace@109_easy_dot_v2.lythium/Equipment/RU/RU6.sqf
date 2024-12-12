@@ -30,7 +30,6 @@ _unit addSecondaryWeaponItem "pzn_slot_rhs_acc_dtk";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 
 

@@ -30,5 +30,4 @@ _unit addHeadgear "rhsgref_helmet_pasgt_altis_lizard";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

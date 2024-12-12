@@ -25,6 +25,5 @@ _unit addGoggles "PBW_shemagh_beige";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "tf_rf7800str";
 _unit linkItem "ItemGPS";

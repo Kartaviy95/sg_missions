@@ -22,5 +22,4 @@ _unit addHeadgear (random_USMC_headgear select (floor (random (count random_USMC
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

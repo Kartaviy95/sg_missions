@@ -35,6 +35,5 @@ _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 
 _unit linkItem "rhsusf_ANPVS_15_WP";
-_unit linkItem "tf_microdagr";
 
 

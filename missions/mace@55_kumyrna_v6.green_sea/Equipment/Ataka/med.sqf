@@ -25,5 +25,4 @@ _unit addBackpack "YuE_Ataka2EMP";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

@@ -27,5 +27,4 @@ _unit addHeadgear "UNS_Boonie3_VC";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

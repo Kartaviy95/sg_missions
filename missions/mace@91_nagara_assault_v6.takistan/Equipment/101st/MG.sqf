@@ -19,7 +19,6 @@ _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
 
-_unit linkItem "tf_microdagr";
 
 for "_i" from 1 to 2 do {_unit addItemToVest "rhsusf_200Rnd_556x45_box";};
 for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};

@@ -16,4 +16,3 @@ for "_i" from 1 to 2 do {this addItemToBackpack "rhs_rpg7_OG7V_mag";};
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";

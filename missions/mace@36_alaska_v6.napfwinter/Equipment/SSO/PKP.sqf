@@ -30,7 +30,6 @@ _unit addGoggles "rhs_scarf";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit linkItem "Louetta_GPNVG_1_alt";

@@ -33,7 +33,6 @@ for '_i' from 1 to 2 do { _unit addItemToBackpack 'mkk_20Rnd_M62_762x51_HK417';}
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit linkItem "Louetta_GPNVG_2_blk";

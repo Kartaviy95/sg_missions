@@ -31,7 +31,6 @@ _unit addGoggles "rhsusf_oakley_goggles_blk";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit linkItem "Louetta_PVS31A_2";

@@ -39,6 +39,5 @@ _unit addHeadgear "rhs_6b26_digi_bala";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 

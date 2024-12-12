@@ -36,6 +36,5 @@ _unit addGoggles "PBW_Balaclava_schwarz";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "tf_anprc148jem";
 _unit linkItem "ItemGPS";

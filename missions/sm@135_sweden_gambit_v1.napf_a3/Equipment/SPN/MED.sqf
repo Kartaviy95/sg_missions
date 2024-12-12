@@ -31,7 +31,6 @@ _unit addGoggles "YuEBalaklava1a";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit linkItem "rhs_6m2_1_nvg";

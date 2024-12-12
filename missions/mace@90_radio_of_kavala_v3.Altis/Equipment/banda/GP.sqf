@@ -24,5 +24,4 @@ _unit addHeadgear "usm_bdu_boonie_blk";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

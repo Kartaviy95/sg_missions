@@ -27,5 +27,4 @@ _unit addGoggles "rhs_googles_yellow";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

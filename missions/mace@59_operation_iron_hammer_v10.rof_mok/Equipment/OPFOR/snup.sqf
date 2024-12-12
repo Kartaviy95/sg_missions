@@ -31,6 +31,5 @@ _unit addHeadgear "YuEPanama1bg_GBSHP2";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

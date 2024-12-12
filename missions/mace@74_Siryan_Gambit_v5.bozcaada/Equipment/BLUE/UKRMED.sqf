@@ -27,6 +27,5 @@ _unit addHeadgear "mkk_H_BAF_MTP_Mk6_GLASS_PRR";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

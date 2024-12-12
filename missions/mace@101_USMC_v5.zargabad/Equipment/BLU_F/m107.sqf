@@ -41,7 +41,6 @@ _unit addItemToBackpack "rhsusf_acc_premier_anpvs27";
 _unit addItemToUniform "ACE_Kestrel4500";
 _unit addItemToUniform "ACE_RangeCard";
 _unit addItemToBackpack "ACE_MX2A";
-_unit linkItem "tf_microdagr";
 
 for "_i" from 1 to 2 do {_unit addItemToVest "rhsusf_mag_10Rnd_STD_50BMG_mk211";};
 

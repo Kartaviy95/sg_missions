@@ -52,5 +52,4 @@ _unit addBackpack "tf_anprc155_coyote";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

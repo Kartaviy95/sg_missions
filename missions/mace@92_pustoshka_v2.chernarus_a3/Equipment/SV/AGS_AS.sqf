@@ -30,5 +30,4 @@ _unit addHeadgear (random_SV_headgear select (floor (random (count random_SV_hea
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

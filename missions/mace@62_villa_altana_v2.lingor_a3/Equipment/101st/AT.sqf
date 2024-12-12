@@ -17,6 +17,5 @@ _unit addWeapon "rhs_weap_M136";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 

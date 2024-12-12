@@ -15,7 +15,6 @@ _unit addPrimaryWeaponItem "rhsusf_acc_nt4_tan";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemGPS";
 
 for "_i" from 1 to 10 do {_unit addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};

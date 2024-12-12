@@ -30,6 +30,5 @@ _unit addHeadgear "PO_H_mich_bare_isof_1_nortos_alt_blk";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "tf_anprc148jem";
 _unit linkItem "ItemGPS";

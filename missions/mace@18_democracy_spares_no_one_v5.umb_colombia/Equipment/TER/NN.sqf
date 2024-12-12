@@ -31,5 +31,4 @@ _unit addGoggles "TRYK_Beard_BW3";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

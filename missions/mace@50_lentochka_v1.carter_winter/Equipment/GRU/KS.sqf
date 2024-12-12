@@ -34,7 +34,6 @@ _unit addHeadgear "6b7_emr_bala2_w";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "O_UavTerminal";
 

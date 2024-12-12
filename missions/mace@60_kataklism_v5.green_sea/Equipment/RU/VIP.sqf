@@ -11,5 +11,4 @@ removeBackpack _unit;
 _unit forceAddUniform "LOP_U_CHR_Functionary_01";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemGPS";

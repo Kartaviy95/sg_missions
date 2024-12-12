@@ -30,6 +30,5 @@ _unit addHeadgear "rhssaf_helmet_m97_digital_black_ess_bare";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

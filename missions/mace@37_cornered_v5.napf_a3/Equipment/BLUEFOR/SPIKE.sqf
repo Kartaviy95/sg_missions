@@ -35,6 +35,5 @@ _unit addHeadgear "rhsusf_ach_bare_headset_ess";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "tf_anprc148jem";
 _unit linkItem "ItemGPS";

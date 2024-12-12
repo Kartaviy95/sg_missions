@@ -28,5 +28,4 @@ _unit addHeadgear "mkk_ffp_m05s_helmet_glasses";
 _unit linkItem "rhsusf_ANPVS_15";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

@@ -30,5 +30,4 @@ _unit addHeadgear "usm_bdu_cap_wdl";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

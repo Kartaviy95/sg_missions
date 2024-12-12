@@ -13,4 +13,3 @@ _unit addWeapon "mkk_VTN_RPK";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";

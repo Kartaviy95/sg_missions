@@ -20,7 +20,6 @@ _unit addWeapon "rhs_weap_m4_carryhandle";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 
 

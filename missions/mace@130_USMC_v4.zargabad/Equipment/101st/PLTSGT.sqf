@@ -21,7 +21,6 @@ _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit addWeapon "ACE_Vector";
 
-_unit linkItem "tf_microdagr";
 
 for "_i" from 1 to 6 do {_unit addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
 for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};

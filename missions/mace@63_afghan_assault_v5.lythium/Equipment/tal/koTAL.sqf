@@ -24,7 +24,6 @@ _unit addGoggles "TRYK_Beard_BK";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemGPS";
 
 _unit addWeapon "Binocular";

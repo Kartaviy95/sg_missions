@@ -28,7 +28,6 @@ _unit addGoggles "TRYK_Shemagh";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "tf_fadak";
-_unit linkItem "tf_microdagr";
 
 
 _unit addWeapon "Binocular";

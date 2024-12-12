@@ -27,6 +27,5 @@ _unit addHeadgear "usm_bdu_boonie_odg";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "tf_anprc152";
 _unit linkItem "ItemGPS";

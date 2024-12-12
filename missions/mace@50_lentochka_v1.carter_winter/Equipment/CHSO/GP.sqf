@@ -29,5 +29,4 @@ _unit addHeadgear "rhs_6b7_1m_flora_ns3";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

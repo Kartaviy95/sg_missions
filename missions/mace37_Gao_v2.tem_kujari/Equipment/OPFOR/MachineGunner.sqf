@@ -33,7 +33,6 @@ _unit addHeadgear "PO_H_cap_tub";
 comment "Add items";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 
 comment "Set identity";

@@ -24,5 +24,4 @@ _unit addHeadgear "rhs_zsh7a_mike";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

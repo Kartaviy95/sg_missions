@@ -25,7 +25,6 @@ _unit addHeadgear "rhsusf_ach_helmet_M81";
 _unit addGoggles "G_Squares";
 
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 

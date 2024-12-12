@@ -37,4 +37,3 @@ if (_unit hasWeapon "rhsusf_weap_glock17g4") then
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";

@@ -12,4 +12,3 @@ _unit addWeapon (random_545_weapon select (floor (random (count random_545_weapo
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";

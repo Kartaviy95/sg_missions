@@ -19,7 +19,6 @@ _unit linkItem "ItemGPS";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
 
-_unit linkItem "tf_microdagr";
 
 _unit addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";
 _unit addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";

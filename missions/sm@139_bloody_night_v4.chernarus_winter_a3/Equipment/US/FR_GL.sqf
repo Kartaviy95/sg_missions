@@ -29,7 +29,6 @@ _unit addHeadgear "rhsusf_opscore_ut_pelt_nsw_cam";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit linkItem "rhsusf_ANPVS_14";

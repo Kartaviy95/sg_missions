@@ -14,4 +14,3 @@ _unit addPrimaryWeaponItem "rhsusf_acc_ACOG_RMR";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";

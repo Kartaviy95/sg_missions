@@ -29,4 +29,3 @@ _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit linkItem "Binocular";
 _unit linkItem "A3_GPNVG18_F";
-_unit linkItem "tf_microdagr";

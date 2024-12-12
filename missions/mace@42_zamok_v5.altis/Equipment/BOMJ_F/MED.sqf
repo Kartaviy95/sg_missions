@@ -25,5 +25,4 @@ _unit addHeadgear "H_Bandanna_cbr";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "tf_anprc148jem";

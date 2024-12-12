@@ -20,7 +20,6 @@ _unit addHeadgear "H_Cap_tan_specops_US";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 
 

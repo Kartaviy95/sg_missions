@@ -26,5 +26,4 @@ _unit addBackpack "rhs_rk_sht_30_emr";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

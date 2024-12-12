@@ -27,7 +27,6 @@ _unit addWeapon "mkk_VTN_RPK74N_1984";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";
 
 

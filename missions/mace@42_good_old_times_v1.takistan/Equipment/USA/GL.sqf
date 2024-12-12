@@ -15,7 +15,6 @@ _unit addWeapon "rhs_weap_M136_hedp";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "tf_microdagr";
 
 for "_i" from 1 to 8 do {_unit addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
 for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};

@@ -31,9 +31,9 @@ def find_and_process_folder(root_directory, folder_name, line_to_remove):
                 for file in files_sub:
                     if file.endswith(".sqf"):  # Обрабатываем только .sqf файлы
                         file_path = os.path.join(root_sub, file)
-                        remove_line_from_file(file_path, '_unit linkItem "ItemWatch";')
+                        remove_line_from_file(file_path, '_unit linkItem "tf_microdagr";')
                         print(f"Обработан файл: {file_path}")
 
 # Запуск из текущей директории
 current_directory = os.getcwd()
-find_and_process_folder(current_directory, "Equipment", '_unit linkItem "ItemWatch";')
+find_and_process_folder(current_directory, "Equipment", '_unit linkItem "tf_microdagr";')

@@ -35,5 +35,4 @@ _unit addHeadgear (random_TAL_golova select (floor (random (count random_TAL_gol
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "tf_microdagr";
 _unit linkItem "ItemRadio";

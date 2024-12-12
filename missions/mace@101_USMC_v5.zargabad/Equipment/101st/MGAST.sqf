@@ -21,7 +21,6 @@ _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
 
-_unit linkItem "tf_microdagr";
 _unit addItemToBackpack "rhsusf_200Rnd_556x45_box";
 
 for "_i" from 1 to 6 do {_unit addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
