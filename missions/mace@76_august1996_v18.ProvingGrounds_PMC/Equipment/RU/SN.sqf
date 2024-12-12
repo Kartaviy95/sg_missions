@@ -28,5 +28,4 @@ _unit addHeadgear "H_Bandanna_khk_hs";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

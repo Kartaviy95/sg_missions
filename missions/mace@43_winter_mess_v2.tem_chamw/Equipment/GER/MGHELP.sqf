@@ -28,5 +28,4 @@ _unit addGoggles "mkk_idf_bala_b";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

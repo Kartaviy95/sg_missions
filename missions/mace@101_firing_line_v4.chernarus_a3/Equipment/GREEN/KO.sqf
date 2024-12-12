@@ -27,7 +27,6 @@ _unit addBackpack "tf_anprc155";
 _unit addGoggles "rhs_scarf";
 
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";

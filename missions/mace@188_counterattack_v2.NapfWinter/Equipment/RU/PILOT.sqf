@@ -27,5 +27,4 @@ _unit addHeadgear "fow_h_ija_flight_helmet";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 

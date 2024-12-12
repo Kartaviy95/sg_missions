@@ -28,5 +28,4 @@ _unit addHeadgear (random_MSV_headgear select (floor (random (count random_MSV_h
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "tf_pnr1000a";

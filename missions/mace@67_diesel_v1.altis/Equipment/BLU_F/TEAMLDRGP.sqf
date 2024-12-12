@@ -29,6 +29,5 @@ for '_i' from 1 to 18 do { _unit addItemToBackpack  'rhs_mag_M433_HEDP';};
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

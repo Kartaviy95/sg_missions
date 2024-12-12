@@ -27,7 +27,6 @@ _unit addHeadgear "rhsusf_mich_helmet_marpatwd";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 

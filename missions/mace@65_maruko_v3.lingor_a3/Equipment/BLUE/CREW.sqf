@@ -31,5 +31,4 @@ _unit addHeadgear "rhsusf_cvc_green_helmet";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

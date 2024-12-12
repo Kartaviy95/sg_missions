@@ -27,6 +27,5 @@ _unit addHeadgear "rhs_zsh7a_mike_green";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

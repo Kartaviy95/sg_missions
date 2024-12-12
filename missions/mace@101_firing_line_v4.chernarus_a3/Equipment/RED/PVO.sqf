@@ -34,4 +34,3 @@ _unit addHeadgear "PO_H_SSh68Helmet_wz93";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
-_unit linkItem "ItemWatch";

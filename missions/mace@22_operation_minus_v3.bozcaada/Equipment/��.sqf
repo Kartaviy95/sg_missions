@@ -140,4 +140,4 @@ _veh addItemCargoGlobal ["mkkc_mag_2m3m_130_mix", 10]; // Снаряды 25мм 
 //Всякое
 _veh addItemcargoglobal ["ToolKit", 1]; // Ремкомплект
 _veh addItemCargoGlobal ["ACE_EarPlugs", 1]; // Беруши
-_veh addItemCargoGlobal ["ACE_MapTools", 1]; // Инструменты карты
+_veh addItemCargoGlobal ["ACE_MapTools", 1]; // �нструменты карты

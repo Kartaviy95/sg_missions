@@ -29,7 +29,6 @@ _unit addWeapon "ACE_Vector";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "rhsusf_ANPVS_15_WP";
 _unit linkItem "tf_microdagr";

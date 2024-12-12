@@ -29,7 +29,6 @@ _unit addHeadgear "rhsusf_hgu56p_visor_mask_pink";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit linkItem "Louetta_PVS31A_2_alt";

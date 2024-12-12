@@ -23,6 +23,5 @@ _unit addHeadgear (random_Pilot_headgear select (floor (random (count random_Pil
 _unit addBackpack "B_Parachute";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

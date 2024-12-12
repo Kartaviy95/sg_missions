@@ -27,5 +27,4 @@ _unit addHeadgear "rhsgref_6b27m_ttsko_digi";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "tf_anprc152";

@@ -29,5 +29,4 @@ _unit addHeadgear "BWA3_M92_Fleck";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

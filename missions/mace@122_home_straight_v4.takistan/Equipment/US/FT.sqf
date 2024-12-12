@@ -27,6 +27,5 @@ for '_i' from 1 to 2 do { _unit addItemToVest 'rhs_mag_m67';};
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

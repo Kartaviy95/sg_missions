@@ -38,6 +38,5 @@ _unit addGoggles (random_MAR_googles select (floor (random (count random_MAR_goo
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

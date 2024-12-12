@@ -26,4 +26,3 @@ _unit addGoggles "fow_g_gloves3";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";

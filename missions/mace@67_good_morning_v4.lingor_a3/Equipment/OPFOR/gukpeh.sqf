@@ -49,6 +49,5 @@ _unit addHeadgear _Head;
 _unit addGoggles "Armband_Red_XL2";
 
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

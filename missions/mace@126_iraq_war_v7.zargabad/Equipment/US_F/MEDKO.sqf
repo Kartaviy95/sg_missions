@@ -35,6 +35,5 @@ _unit addHeadgear "rhsusf_mich_bare_norotos_semi_headset";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

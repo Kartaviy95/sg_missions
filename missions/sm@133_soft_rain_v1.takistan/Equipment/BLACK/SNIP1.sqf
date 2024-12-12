@@ -19,7 +19,6 @@ for "_i" from 1 to 1 do {_unit addItemToBackpack "rhsusf_acc_premier";};
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit linkItem "Louetta_PVS31A_5";

@@ -31,5 +31,4 @@ _unit addHeadgear "rhs_6b27m_digi";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

@@ -52,6 +52,5 @@ _unit addGoggles "mkk_HAMAS_balaclava";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

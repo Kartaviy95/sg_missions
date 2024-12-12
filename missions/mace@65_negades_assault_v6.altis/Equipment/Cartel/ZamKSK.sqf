@@ -25,5 +25,4 @@ _unit addHeadgear "usm_bdu_cap_erdl";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemGPS";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

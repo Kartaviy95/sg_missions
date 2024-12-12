@@ -28,5 +28,4 @@ _unit addHeadgear (random_UKR_headgear select (floor (random (count random_UKR_h
 _unit addBackpack "B_Kitbag_rgr";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

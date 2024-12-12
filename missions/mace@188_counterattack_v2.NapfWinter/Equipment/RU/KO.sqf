@@ -30,4 +30,3 @@ _unit addHeadgear "h_ushanka_fold1";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";

@@ -28,5 +28,4 @@ _unit addHeadgear "rhssaf_helmet_m59_85_nocamo";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

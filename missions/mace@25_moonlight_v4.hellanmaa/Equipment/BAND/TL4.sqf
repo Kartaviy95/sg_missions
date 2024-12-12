@@ -16,7 +16,6 @@ _unit addGoggles "G_Spectacles";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ACE_NVG_Gen1";
 

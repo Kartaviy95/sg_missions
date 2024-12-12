@@ -35,6 +35,5 @@ _unit addHeadgear "6b7_emr_ess_bala2_w";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

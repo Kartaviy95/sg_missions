@@ -6,7 +6,6 @@ _unit addBackpack "B_Carryall_Base";
 
 // Weapons with attachments:
 
-_unit linkItem "ItemWatch";
 _unit addItem "mkk_20Rnd_M61_762x51_HK417";
 _unit addWeapon "mkk_srifle_L129A1";
 _unit addPrimaryWeaponItem "rhsusf_acc_aac_762sdn6_silencer";

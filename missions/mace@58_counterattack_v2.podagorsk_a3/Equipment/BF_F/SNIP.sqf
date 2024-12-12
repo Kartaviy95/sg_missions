@@ -30,5 +30,4 @@ _unit addHeadgear "mkk_H_BAF_DPM_Mk6_NETTING_PRR";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

@@ -32,5 +32,4 @@ _unit addHeadgear "YGO_Cap_Tigerstripe";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

@@ -33,5 +33,4 @@ _unit addBackpack "YuE_6sh92rOl";
 for '_i' from 1 to 14 do { _unit addItemToBackpack  'rhs_VOG25';};
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

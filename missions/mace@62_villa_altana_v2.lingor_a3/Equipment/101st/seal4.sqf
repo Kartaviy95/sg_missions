@@ -19,7 +19,6 @@ _unit addPrimaryWeaponItem "rhsusf_acc_grip2";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 

@@ -31,6 +31,5 @@ _unit addHeadgear "PBW_Helm1_fleck_H";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

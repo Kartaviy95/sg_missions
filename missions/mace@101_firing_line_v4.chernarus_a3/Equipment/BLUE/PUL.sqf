@@ -14,7 +14,6 @@ for "_i" from 1 to 2 do {_unit addItemToBackpack "rhs_100Rnd_762x54mmR_green";};
 
 _unit addWeapon "rhs_weap_pkm";
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";

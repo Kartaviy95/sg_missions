@@ -25,6 +25,5 @@ for '_i' from 1 to 2 do { _unit addItemToBackpack  'rhs_75Rnd_762x39mm_tracer';}
 for '_i' from 1 to 3 do { _unit addItemToBackpack  'rhs_75Rnd_762x39mm';};
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

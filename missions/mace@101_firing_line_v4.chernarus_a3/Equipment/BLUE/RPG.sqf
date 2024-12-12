@@ -20,7 +20,6 @@ _unit addPrimaryWeaponItem "rhs_acc_dtk";
 _unit addWeapon "rhs_weap_rpg7";
 _unit addSecondaryWeaponItem "rhs_acc_pgo7v3";
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";

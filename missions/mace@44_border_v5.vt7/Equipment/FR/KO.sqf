@@ -28,6 +28,5 @@ _unit addHeadgear "mkk_Helmet_TC3000_cover_CE";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "tf_anprc152";
 _unit linkItem "ItemGPS";

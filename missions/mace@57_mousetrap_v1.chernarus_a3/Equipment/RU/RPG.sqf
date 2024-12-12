@@ -17,5 +17,4 @@ _unit addWeapon "rhs_weap_rpg7";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

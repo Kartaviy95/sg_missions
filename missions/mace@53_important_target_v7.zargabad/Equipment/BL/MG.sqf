@@ -26,5 +26,4 @@ _unit addHeadgear "rhs_6b47_bare_d";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

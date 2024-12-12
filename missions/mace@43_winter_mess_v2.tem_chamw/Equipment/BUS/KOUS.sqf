@@ -29,6 +29,5 @@ _unit addHeadgear "usm_bdu_8point_ubn";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

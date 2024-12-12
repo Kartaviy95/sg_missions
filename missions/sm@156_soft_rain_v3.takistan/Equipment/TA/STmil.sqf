@@ -17,7 +17,6 @@ _unit addHeadgear "LOP_H_Policeman_cap";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 
 _unit addWeapon "Binocular";

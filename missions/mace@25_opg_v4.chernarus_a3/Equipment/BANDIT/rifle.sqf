@@ -23,4 +23,3 @@ if (_unit hasWeapon "rhs_weap_aks74u") then
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";

@@ -15,7 +15,6 @@ _unit addPrimaryWeaponItem "rhsusf_acc_su230_c";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 
 

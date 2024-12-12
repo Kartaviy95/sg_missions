@@ -34,5 +34,4 @@ _unit addHeadgear "rhsgref_ssh68_vsr";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

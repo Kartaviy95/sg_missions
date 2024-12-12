@@ -32,5 +32,4 @@ _unit addHeadgear "rhs_ssh68";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

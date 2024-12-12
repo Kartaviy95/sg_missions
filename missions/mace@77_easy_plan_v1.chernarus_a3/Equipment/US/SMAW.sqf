@@ -28,5 +28,4 @@ _unit addSecondaryWeaponItem "rhs_weap_optic_smaw";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

@@ -21,6 +21,5 @@ _unit addHeadgear "LOP_H_Ushanka";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 

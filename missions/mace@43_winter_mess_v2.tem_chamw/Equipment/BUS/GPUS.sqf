@@ -25,5 +25,4 @@ _unit addHeadgear "mkk_H_Helmet_Snow";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

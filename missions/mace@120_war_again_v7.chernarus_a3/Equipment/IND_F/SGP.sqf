@@ -30,5 +30,4 @@ _unit addItemToBackpack  'SatchelCharge_Remote_Mag';
 _unit addItemToBackpack "AGM_M26_Clacker";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

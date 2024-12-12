@@ -29,7 +29,6 @@ for '_i' from 1 to 5 do { _unit addItemToBackpack  'rhs_mag_30Rnd_556x45_Mk318_P
 for '_i' from 1 to 3 do { _unit addItemToBackpack  'DemoCharge_Remote_Mag';};
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit addGoggles "G_B_Diving";

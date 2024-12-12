@@ -21,5 +21,4 @@ _unit linkItem "rhsusf_ANPVS_15";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

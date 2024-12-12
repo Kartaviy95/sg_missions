@@ -18,7 +18,6 @@ _unit addPrimaryWeaponItem "rhs_acc_dtk";
 _unit addPrimaryWeaponItem "ACE_optic_MRCO_2D";
 _unit addWeapon "Binocular";
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";

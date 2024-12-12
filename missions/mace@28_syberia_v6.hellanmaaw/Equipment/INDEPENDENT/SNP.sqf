@@ -21,7 +21,6 @@ _unit addHeadgear "mkk_H_Bandana_BLK";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 
 

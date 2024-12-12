@@ -24,6 +24,5 @@ _unit addHeadgear "rhssaf_helmet_m97_olive_nocamo_black_ess_bare";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "tf_anprc152";
 _unit linkItem "ItemGPS";

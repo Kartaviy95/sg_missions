@@ -30,7 +30,6 @@ _unit addHeadgear "rhsgref_ssh68_ttsko_mountain";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit addGoggles "rhsusf_shemagh_od";
 

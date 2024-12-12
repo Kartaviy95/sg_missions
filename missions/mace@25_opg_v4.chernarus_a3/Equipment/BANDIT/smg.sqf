@@ -23,4 +23,3 @@ if (_unit hasWeapon "mkk_PPSh41_d") then
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";

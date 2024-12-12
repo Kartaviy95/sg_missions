@@ -35,6 +35,5 @@ _unit addHeadgear "rhs_6b7_1m_emr_ess";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "B_UavTerminal";

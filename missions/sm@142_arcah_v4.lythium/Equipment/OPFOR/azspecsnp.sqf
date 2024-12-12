@@ -31,7 +31,6 @@ _unit addHeadgear "H_HelmetSpecB_blk";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 

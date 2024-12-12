@@ -26,5 +26,4 @@ _unit addGoggles "YuEBalaklavaW1o";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

@@ -37,7 +37,6 @@ _unit addPrimaryWeaponItem "mkk_hlc_muzzle_556NATO_M42000";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 

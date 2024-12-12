@@ -30,6 +30,5 @@ for '_i' from 1 to 2 do { _unit addItemToBackpack  'SmokeShell';};
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemGPS";
 _unit linkItem "ItemRadio";

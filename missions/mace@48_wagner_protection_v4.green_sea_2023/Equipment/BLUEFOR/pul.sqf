@@ -32,7 +32,6 @@ _unit addGoggles "PBW_RevisionT_Klar";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 

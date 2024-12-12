@@ -16,7 +16,6 @@ _unit addHeadgear "rhs_6b7_1m_bala2_olive";
 _unit addBackpack "rhssaf_kitbag_smb";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit addGoggles "rhsusf_shemagh_od";
 [_unit,"PersianHead_A3_02","male03per"] call BIS_fnc_setIdentity;

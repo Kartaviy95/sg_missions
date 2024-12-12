@@ -28,5 +28,4 @@ _unit addHeadgear "LOP_H_Beanie_m81";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemGPS";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

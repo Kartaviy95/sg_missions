@@ -20,7 +20,6 @@ _unit addHeadgear "H_Shemag_olive";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit linkItem "Louetta_PVS31A_5";;

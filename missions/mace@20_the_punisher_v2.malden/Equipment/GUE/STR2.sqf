@@ -30,7 +30,6 @@ for '_i' from 1 to 5 do { _unit addItemToBackpack  'rhsusf_8Rnd_00Buck';};
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 
 

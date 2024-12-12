@@ -38,7 +38,6 @@ _unit addHeadgear "YuESH68ChVSRw";
 comment "Add items";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 
 comment "Set identity";

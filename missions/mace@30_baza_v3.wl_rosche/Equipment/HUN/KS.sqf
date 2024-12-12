@@ -26,6 +26,5 @@ _unit addHeadgear "rhs_fieldcap_m88_grey";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "tf_fadak";
 _unit linkItem "ItemGPS";

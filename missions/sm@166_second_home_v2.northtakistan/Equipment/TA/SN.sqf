@@ -19,7 +19,6 @@ _unit addHeadgear "mkk_m88helmet_camo_jgk";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit addGoggles "rhsusf_shemagh_od";
 

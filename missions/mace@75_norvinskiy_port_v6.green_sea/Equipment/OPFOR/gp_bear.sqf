@@ -35,7 +35,6 @@ _unit addGoggles "rhsusf_shemagh_grn";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit linkItem "Louetta_PVS31A_1_alt";

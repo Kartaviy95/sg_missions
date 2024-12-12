@@ -28,6 +28,5 @@ _unit addHeadgear "rhssaf_helmet_m97_oakleaf_black_ess_bare";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

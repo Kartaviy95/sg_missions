@@ -28,6 +28,5 @@ _unit addBackpack "UNS_Alice_2";
 _unit addHeadgear _Head;
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

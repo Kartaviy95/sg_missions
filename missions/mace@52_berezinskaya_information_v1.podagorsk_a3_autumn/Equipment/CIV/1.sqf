@@ -11,4 +11,3 @@ removeBackpack _unit;
 _unit forceAddUniform "U_C_Uniform_Scientist_01_F";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";

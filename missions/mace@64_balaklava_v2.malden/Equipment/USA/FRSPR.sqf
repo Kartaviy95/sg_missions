@@ -29,7 +29,6 @@ for '_i' from 1 to 2 do { _unit addItemToBackpack  'rhs_mag_an_m8hc';};
 for '_i' from 1 to 8 do { _unit addItemToBackpack  'mkk_20Rnd_M61_762x51_HK417';};
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 _unit addGoggles "G_B_Diving";

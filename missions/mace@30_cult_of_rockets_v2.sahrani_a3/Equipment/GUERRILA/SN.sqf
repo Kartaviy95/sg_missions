@@ -38,6 +38,5 @@ this addGoggles "rhsusf_shemagh2_grn";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

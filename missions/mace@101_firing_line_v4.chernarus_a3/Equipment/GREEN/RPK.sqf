@@ -23,7 +23,6 @@ _unit addHeadgear "usm_bdu_boonie_wdl";
 
 _unit addGoggles "G_Bandanna_oli";
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";

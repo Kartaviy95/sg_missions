@@ -38,7 +38,6 @@ for '_i' from 1 to 7 do { _unit addItemToBackpack 'ACE_epinephrine';};
 for '_i' from 1 to 1 do { _unit addItemToBackpack 'ACE_surgicalKit';};
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 
 

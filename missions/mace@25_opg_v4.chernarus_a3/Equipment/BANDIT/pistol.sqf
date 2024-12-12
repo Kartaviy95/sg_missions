@@ -42,4 +42,3 @@ if (_unit hasWeapon "rhs_weap_makarov_pm") then
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";

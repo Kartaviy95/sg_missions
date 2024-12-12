@@ -28,6 +28,5 @@ _unit addHeadgear "gsb_6B27M_ess_Desert";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

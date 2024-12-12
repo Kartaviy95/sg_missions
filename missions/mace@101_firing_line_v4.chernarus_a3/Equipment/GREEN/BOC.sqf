@@ -26,7 +26,6 @@ _unit addGoggles "G_Bandanna_oli";
 
 
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";

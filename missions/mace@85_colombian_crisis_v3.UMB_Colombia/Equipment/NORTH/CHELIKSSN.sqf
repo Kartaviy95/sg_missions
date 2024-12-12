@@ -35,5 +35,4 @@ _unit addHeadgear "usm_bdu_boonie_odg";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemGPS";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

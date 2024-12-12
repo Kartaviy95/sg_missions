@@ -29,5 +29,4 @@ _unit addHeadgear "H_MilCap_dgtl";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

@@ -35,7 +35,6 @@ _unit addHeadgear "mkk_H_BAF_MTP_Mk7_PRR_SCRIM_B";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 

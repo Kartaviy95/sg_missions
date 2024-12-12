@@ -28,6 +28,5 @@ _unit addHeadgear (random_RU_headgear select (floor (random (count random_RU_hea
 _unit addBackpack "rhs_assault_umbts";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

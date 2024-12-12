@@ -32,6 +32,5 @@ _unit addGoggles "mkk_dzn_G_IDF_Mitznefet_Cover_Desert";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

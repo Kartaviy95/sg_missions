@@ -38,6 +38,5 @@ _unit addGoggles "G_Balaclava_blk";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 

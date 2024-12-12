@@ -21,7 +21,6 @@ _unit addItemToVest 'rhs_mag_m67';
 for '_i' from 1 to 2 do { _unit addItemToVest 'SmokeShell';};
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemGPS";
 
 [this,"AsianHead_A3_03","male03gre"] call BIS_fnc_setIdentity;

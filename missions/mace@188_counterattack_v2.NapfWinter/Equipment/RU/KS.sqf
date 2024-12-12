@@ -30,4 +30,3 @@ _unit addHeadgear "h_furazhka_01";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";

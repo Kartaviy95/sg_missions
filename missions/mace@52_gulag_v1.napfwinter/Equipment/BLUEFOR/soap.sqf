@@ -32,7 +32,6 @@ _unit addBackpack "tf_rt1523g_black";
 for '_i' from 1 to 6 do { _unit addItemToBackpack  'mkk_hlc_30Rnd_9x19_B_MP5';};
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 

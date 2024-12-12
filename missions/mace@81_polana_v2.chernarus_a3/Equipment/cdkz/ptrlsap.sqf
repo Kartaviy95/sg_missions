@@ -21,7 +21,6 @@ _unit addHandgunItem "rhs_acc_6p9_suppressor";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 

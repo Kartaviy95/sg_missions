@@ -29,5 +29,4 @@ _unit addHeadgear "rhsgref_helmet_pasgt_woodland";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

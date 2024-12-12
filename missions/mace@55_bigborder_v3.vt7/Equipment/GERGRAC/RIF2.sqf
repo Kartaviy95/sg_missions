@@ -23,6 +23,5 @@ _unit addHeadgear "BWA3_Beret_Jaeger";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "tf_fadak";
 _unit linkItem "ItemGPS";

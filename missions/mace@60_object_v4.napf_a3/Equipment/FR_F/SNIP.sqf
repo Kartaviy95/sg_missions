@@ -35,6 +35,5 @@ _unit addHeadgear "mkk_AMF_FELIN_COVER_EARPROT_OD";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

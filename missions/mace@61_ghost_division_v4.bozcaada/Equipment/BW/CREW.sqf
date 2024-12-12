@@ -28,5 +28,4 @@ _unit addHeadgear "BWA3_CrewmanKSK_Tropen_Headset";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

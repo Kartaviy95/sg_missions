@@ -29,6 +29,5 @@ _unit addHeadgear "CUP_H_RUS_6B47_v2_GogglesClosed_Summer";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemGPS";
 _unit linkItem "ItemRadio";

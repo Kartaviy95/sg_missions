@@ -28,5 +28,4 @@ _unit addHeadgear "rhsusf_ach_helmet_DCU_early";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

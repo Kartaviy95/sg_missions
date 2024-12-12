@@ -30,7 +30,6 @@ for "_i" from 1 to 2 do {_unit addItemToBackpack "rhs_mag_an_m8hc";};
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "rhsusf_ANPVS_15_WP";
 _unit linkItem "tf_microdagr";

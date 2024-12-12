@@ -31,5 +31,4 @@ _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
-_unit linkItem "ItemWatch";
 _unit addWeapon "Binocular";

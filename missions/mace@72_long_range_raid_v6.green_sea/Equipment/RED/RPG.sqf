@@ -34,5 +34,4 @@ _unit addHeadgear "LOP_H_6B27M_CDF";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

@@ -29,6 +29,5 @@ _unit addGoggles "rhsusf_shemagh_gogg_white";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

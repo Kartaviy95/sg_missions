@@ -27,6 +27,5 @@ _unit addHeadgear (random_CDF_headgear select (floor (random (count random_CDF_h
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "tf_anprc152";
 _unit linkItem "ItemGPS";

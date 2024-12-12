@@ -26,5 +26,4 @@ for '_i' from 1 to 2 do { _unit addItemToBackpack  'mkk_hlc_20rnd_762x51_b_G3';}
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

@@ -30,5 +30,4 @@ _unit addHeadgear "rhs_6b7_1m_ess";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

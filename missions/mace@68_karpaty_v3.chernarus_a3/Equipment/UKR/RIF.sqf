@@ -24,5 +24,4 @@ _unit addHeadgear "LOP_H_6B27M_ess_Digit";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "tf_anprc148jem";

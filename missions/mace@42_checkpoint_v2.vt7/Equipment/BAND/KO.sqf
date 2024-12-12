@@ -49,7 +49,6 @@ for '_i' from 1 to 2 do { _unit addItemToBackpack 'rhs_mag_rgd5';};
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 
 

@@ -28,5 +28,4 @@ _unit addHeadgear "LOP_H_SSh68Helmet_BLK";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

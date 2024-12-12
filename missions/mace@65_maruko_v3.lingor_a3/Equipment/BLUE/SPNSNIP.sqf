@@ -35,5 +35,4 @@ _unit addGoggles "rhssaf_veil_Green";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

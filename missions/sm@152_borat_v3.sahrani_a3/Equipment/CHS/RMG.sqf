@@ -15,7 +15,6 @@ _unit addPrimaryWeaponItem "rhs_acc_1p29";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 

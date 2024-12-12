@@ -26,7 +26,6 @@ _unit addPrimaryWeaponItem "rhs_acc_pso1m2";
 _unit addWeapon "rhs_weap_makarov_pm";
 _unit addWeapon "Binocular";
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

@@ -22,5 +22,4 @@ _unit addHeadgear "fow_h_ger_feldmutze_panzer";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 [this,"WhiteHead_06",""] call BIS_fnc_setIdentity;

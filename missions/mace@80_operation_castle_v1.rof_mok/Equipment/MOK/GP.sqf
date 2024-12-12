@@ -29,5 +29,4 @@ _unit addHeadgear "rhsusf_ach_bare_ess";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

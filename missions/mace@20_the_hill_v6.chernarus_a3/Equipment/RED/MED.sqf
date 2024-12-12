@@ -26,5 +26,4 @@ _unit addHeadgear "H_Booniehat_oli";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

@@ -34,7 +34,6 @@ _unit addPrimaryWeaponItem "BWA3_muzzle_snds_G28";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit addWeapon "Rangefinder";
 

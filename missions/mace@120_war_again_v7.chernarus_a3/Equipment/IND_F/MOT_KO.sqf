@@ -35,6 +35,5 @@ _unit addHeadgear (random_SA_helm select (floor (random (count random_SA_helm)))
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

@@ -28,5 +28,4 @@ _unit addGoggles "rhsusf_oakley_goggles_clr";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

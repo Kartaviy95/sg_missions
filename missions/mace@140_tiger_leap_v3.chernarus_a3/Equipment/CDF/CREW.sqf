@@ -21,6 +21,5 @@ _unit addHeadgear "rhs_tsh4";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "tf_anprc152";
 _unit linkItem "ItemGPS";

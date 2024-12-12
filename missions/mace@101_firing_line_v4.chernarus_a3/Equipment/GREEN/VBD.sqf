@@ -27,7 +27,6 @@ _unit addHeadgear "rhssaf_booniehat_md2camo";
 _unit addGoggles "G_Bandanna_oli";
 
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";

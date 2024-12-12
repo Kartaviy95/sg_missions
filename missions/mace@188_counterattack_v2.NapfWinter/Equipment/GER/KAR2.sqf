@@ -28,5 +28,4 @@ for '_i' from 1 to 10 do { _unit addItemToBackpack 'fow_5Rnd_792x57';};
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 [this,"WhiteHead_06",""] call BIS_fnc_setIdentity;

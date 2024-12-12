@@ -18,5 +18,4 @@ _unit addSecondaryWeaponItem "rhs_acc_pgo7v3";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

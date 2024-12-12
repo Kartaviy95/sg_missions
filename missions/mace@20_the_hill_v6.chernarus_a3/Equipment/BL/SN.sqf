@@ -22,5 +22,4 @@ _unit addHeadgear "rhsgref_6b27m_ttsko_mountain";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

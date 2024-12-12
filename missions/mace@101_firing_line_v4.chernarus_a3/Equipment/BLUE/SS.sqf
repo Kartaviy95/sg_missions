@@ -16,7 +16,6 @@ _unit addWeapon "rhs_weap_ak103";
 _unit addPrimaryWeaponItem "rhs_acc_dtk";
 _unit addPrimaryWeaponItem "rhs_acc_1p29";
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";

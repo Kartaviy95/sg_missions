@@ -14,5 +14,4 @@ _unit addWeapon (random_B_weaponD select (floor (random (count random_B_weaponD)
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

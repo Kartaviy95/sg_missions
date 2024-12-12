@@ -26,5 +26,4 @@ _unit addHeadgear (random_US_headgear select (floor (random (count random_US_hea
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

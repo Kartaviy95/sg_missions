@@ -14,7 +14,6 @@ for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_rdg2_white";};
 _unit addWeapon "rhs_weap_ak103";
 _unit addPrimaryWeaponItem "rhs_acc_dtk";
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";

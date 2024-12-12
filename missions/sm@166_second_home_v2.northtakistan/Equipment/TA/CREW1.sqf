@@ -20,7 +20,6 @@ _unit addHeadgear "rhs_tsh4";
 for "_i" from 1 to 1 do {_unit addItemToBackpack "rhs_6b7_1m_bala2_olive";};
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemGPS";
 _unit linkItem "ItemRadio";
 

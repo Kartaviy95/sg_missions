@@ -9,4 +9,3 @@ _unit addWeapon "mkk_hlc_rifle_saiga12k";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";

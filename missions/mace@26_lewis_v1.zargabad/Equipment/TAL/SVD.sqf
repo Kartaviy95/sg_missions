@@ -15,5 +15,4 @@ _unit addWeapon "rhs_tr8_periscope";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

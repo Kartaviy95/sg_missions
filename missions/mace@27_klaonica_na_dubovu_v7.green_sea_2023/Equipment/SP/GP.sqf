@@ -30,5 +30,4 @@ _unit addHeadgear "H_HeadBandage_stained_F";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";

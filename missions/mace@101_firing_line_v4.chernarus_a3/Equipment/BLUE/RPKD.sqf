@@ -19,7 +19,6 @@ _unit addWeapon "mkk_VTN_RPK74_1984";
 _unit addPrimaryWeaponItem "rhs_acc_dtkakm";
 _unit addWeapon "Binocular";
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";

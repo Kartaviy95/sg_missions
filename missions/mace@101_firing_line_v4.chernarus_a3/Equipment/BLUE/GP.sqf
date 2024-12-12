@@ -18,7 +18,6 @@ for "_i" from 1 to 5 do {_unit addItemToBackpack "rhs_VOG25P";};
 _unit addWeapon "rhs_weap_ak103_gp25";
 _unit addPrimaryWeaponItem "rhs_acc_dtk";
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";

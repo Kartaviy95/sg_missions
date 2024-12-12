@@ -20,7 +20,6 @@ _unit addPrimaryWeaponItem "rhs_acc_dtk";
 _unit addWeapon "rhs_weap_makarov_pm";
 _unit addWeapon "Binocular";
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";

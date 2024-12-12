@@ -27,4 +27,3 @@ _unit addHeadgear "h_ssh40";
 for '_i' from 1 to 9 do { _unit addItemToBackpack 'mkk_35Rnd_762x25';};
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";

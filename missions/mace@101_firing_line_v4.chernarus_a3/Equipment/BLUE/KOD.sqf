@@ -19,7 +19,6 @@ _unit addPrimaryWeaponItem "ACE_optic_MRCO_2D";
 _unit addWeapon "rhs_weap_makarov_pm";
 _unit addWeapon "rhsusf_bino_lerca_1200_black";
 
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";

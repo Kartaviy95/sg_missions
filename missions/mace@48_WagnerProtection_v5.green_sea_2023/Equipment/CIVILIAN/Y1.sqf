@@ -13,4 +13,3 @@ _unit addHeadgear "H_Cap_oli";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";

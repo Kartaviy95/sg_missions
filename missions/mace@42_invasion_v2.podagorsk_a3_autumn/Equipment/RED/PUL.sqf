@@ -26,5 +26,4 @@ _unit addItemToBackpack  'rhs_100Rnd_762x54mmR_green';
 _unit addItemToBackpack  'rhs_100Rnd_762x54mmR';
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
-_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
